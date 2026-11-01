@@ -1,0 +1,140 @@
+[
+ {
+  "nr": "1",
+  "name": "Heiltrank",
+  "farbe": "das Grüne",
+  "selt": "gewöhnlich",
+  "stk": "genug für alle",
+  "wirk": "Du erhältst <b>2W4+2 TP</b> zurück.<br>Trinken ist eine <b>Bonusaktion</b>.",
+  "tom": "Das Grüne ist Heilung. Das andere Grüne nicht.",
+  "img": "a round-bellied glass flask filled with bright emerald green healing liquid, cork stopper tied with twine, a small sprig of fresh green leaves tied to the neck, soft green glow."
+ },
+ {
+  "nr": "2",
+  "name": "Grosser Heiltrank",
+  "farbe": "das dunkle Grüne",
+  "selt": "ungewöhnlich",
+  "stk": "genug für alle",
+  "wirk": "Du erhältst <b>4W4+4 TP</b> zurück.<br>Trinken ist eine <b>Bonusaktion</b>.",
+  "tom": "Für Notfälle. Jeder Tag ist ein Notfall, ich weiss.",
+  "img": "a larger sturdy square-shouldered glass bottle with deep dark forest-green liquid, a thick wax-sealed cork, wrapped with a band of leather and a pine twig, deep green glow."
+ },
+ {
+  "nr": "3",
+  "name": "Vorzüglicher Heiltrank",
+  "farbe": "fast schwarz",
+  "selt": "selten",
+  "stk": "2 Stück",
+  "wirk": "Du erhältst <b>8W4+8 TP</b> zurück.<br>Trinken ist eine <b>Bonusaktion</b>.",
+  "tom": "Schmeckt nach Moos. Wirkt wie ein Priester.",
+  "img": "an ornate heavy bottle with silver filigree, filled with nearly black liquid that has a faint deep green shimmer in its depths, living moss growing around the stopper, subtle emerald sparkles inside."
+ },
+ {
+  "nr": "4",
+  "name": "Trank der Heldenhaftigkeit",
+  "farbe": "rot, warm",
+  "selt": "selten",
+  "stk": "genug für alle",
+  "wirk": "<b>1 Stunde:</b> <b>10 temporäre TP</b> und die Wirkung von <i>Segen</i> (+1W4 auf Angriffe und Rettungswürfe), <b>ohne Konzentration</b>.",
+  "tom": "Macht laut. Sehr laut.",
+  "img": "a bold tall bottle with warm glowing crimson-red liquid that radiates heat like embers, tiny golden sparks rising inside, a stopper shaped like a small lion or bear head, heroic warm light."
+ },
+ {
+  "nr": "5",
+  "name": "Trank der Riesenstärke",
+  "farbe": "braun, dick",
+  "selt": "selten",
+  "stk": "1 Stück",
+  "wirk": "<b>1 Stunde:</b> deine Stärke wird <b>25</b>.",
+  "tom": "Ich hatte nur einen Riesenzeh. Fragt nicht, von wem.",
+  "img": "a massive chunky clay-and-glass jug filled with thick muddy brown liquid with glowing orange ember flecks, a huge giant's toenail fragment floating inside, iron bands around it, smoldering glow.",
+  "sub": "Feuerriese"
+ },
+ {
+  "nr": "6",
+  "name": "Trank des Fliegens",
+  "farbe": "himmelblau, leicht",
+  "selt": "sehr selten",
+  "stk": "2 Stück",
+  "wirk": "<b>1 Stunde:</b> du erhältst eine <b>Flugbewegung</b> gleich deiner Gehbewegung und kannst <b>schweben</b>.",
+  "tom": "Für die, die vom Greifen fallen. Oder für die Türme.",
+  "img": "a delicate elegant teardrop flask with light sky-blue liquid full of tiny drifting clouds, the bottle itself hovering slightly above the table, a griffon feather tied to the neck, airy soft blue glow."
+ },
+ {
+  "nr": "7",
+  "name": "Trank der Unsichtbarkeit",
+  "farbe": "klar",
+  "selt": "sehr selten",
+  "stk": "1 Stück",
+  "wirk": "<b>1 Stunde unsichtbar.</b> Endet, sobald du <b>angreifst</b> oder <b>zauberst</b>.",
+  "tom": "Für die, die lieber nicht da sind. Bram, Finger weg.",
+  "img": "a crystal-clear glass bottle with perfectly clear liquid that refracts the candlelight, the upper part of the bottle and its stopper fading away into invisibility, only a faint shimmering outline where the stopper should be, ghostly pale glow."
+ },
+ {
+  "nr": "8",
+  "name": "Trank des Wachstums",
+  "farbe": "orange",
+  "selt": "ungewöhnlich",
+  "stk": "genug für alle",
+  "wirk": "<b>1W4 Stunden:</b> wie <i>Vergrössern</i>: <b>doppelte Grösse</b>, <b>Vorteil</b> auf STR-Proben und STR-Rettungswürfe, <b>+1W4 Schaden</b> mit Waffen.",
+  "tom": "Danach passt die Rüstung nicht mehr. Nicht mein Problem.",
+  "img": "a bottle with vivid bright orange liquid, the glass slightly cracked and bulging as if the potion is growing too big for it, a tiny sapling sprouting out of the cork, warm orange glow."
+ },
+ {
+  "nr": "9",
+  "name": "Trank der Verkleidung",
+  "farbe": "violett, schimmert",
+  "selt": "selten · Toms Rezept",
+  "stk": "genug für alle",
+  "wirk": "<b>1 Stunde:</b> wie <i>Selbstverkleidung</i>, aber <b>echt</b>: du nimmst eine <b>andere Gestalt</b> an (Grösse, Haut, Stimme, Geruch). Hält Berührung und Blick aus; nur <i>Wahrer Blick</i> sieht hindurch. Angreifen beendet ihn nicht.",
+  "tom": "Wer du bist, entscheidest du. Eine Stunde lang.",
+  "img": "a slender faceted bottle with shimmering violet iridescent liquid that swirls with soft mist forming vague, changing silhouettes of faces, none recognizable; a carved bone stopper, a small carved wooden half-mask leaning against the bottle, faint purple glow, mysterious."
+ },
+ {
+  "nr": "10",
+  "name": "Trank der Vitalität",
+  "farbe": "dunkelrot",
+  "selt": "sehr selten",
+  "stk": "genug für alle",
+  "wirk": "Entfernt <b>alle Erschöpfung</b>, heilt jede <b>Krankheit</b> und <b>Vergiftung</b>. <b>24 Stunden:</b> jeder Trefferwürfel bei der kurzen Rast bringt das <b>Maximum</b>.",
+  "tom": "Nach der Schlacht. Oder vor der nächsten. Oder dazwischen.",
+  "img": "a heart-shaped bottle with deep dark blood-red liquid that pulses gently like a heartbeat, a sprig of red rowan berries tied to the neck, dark ruby glow."
+ },
+ {
+  "nr": "?",
+  "name": "Trank der Schnelligkeit",
+  "farbe": "gelbgrün, zischt",
+  "selt": "sehr selten",
+  "stk": "vielleicht 1 Stück",
+  "wirk": "<b>1 Minute:</b> wie <i>Hast</i>: doppelte Bewegung, <b>+2 RK</b>, Vorteil auf GES-Rettungswürfe, <b>eine zusätzliche Aktion</b> pro Zug. Ohne Konzentration, ohne Erschöpfung danach.",
+  "tom": "Den hab ich nicht. Offiziell.",
+  "img": "a thin tall vial with fizzing electric yellow-green liquid, bubbles racing upward, tiny crackling sparks of lightning around it, a slightly loose cork popping up from the pressure, energetic yellow-green glow."
+ },
+ {
+  "nr": "11",
+  "name": "Trank des Feueratems",
+  "farbe": "glühend orange",
+  "selt": "ungewöhnlich",
+  "stk": "2 Stück",
+  "sub": "Feueratem",
+  "tot": "Nr. 11/11",
+  "wirk": "<b>1 Stunde:</b> Als <b>Bonusaktion</b> speist du Feuer auf eine Kreatur in <b>9 m (30 Fuss)</b>. Sie macht einen <b>GES-Rettungswurf DC 13</b>: <b>4W6 Feuerschaden</b>, bei Erfolg die Hälfte.<br>Nach dem <b>dritten Feuerstoss</b> oder nach 1 Stunde ist die Wirkung vorbei.",
+  "tom": "Nicht lachen, nachdem ihr getrunken habt. Nicht niesen. Nicht gähnen.",
+  "img": "a squat round flask of thick glass filled with liquid fire"
+ },
+ {
+  "nr": "12",
+  "name": "Feuerpfeile",
+  "farbe": "glutrot",
+  "selt": "ungewöhnlich",
+  "stk": "12 Stück",
+  "sub": "Orvins Glutrune",
+  "typ": "Munition",
+  "von": "Schmied Orvin",
+  "foot": "Orvins Schliffe",
+  "tot": "12 Pfeile",
+  "wirk": "<b>12 Pfeile</b> mit Glutrune. Trifft ein Feuerpfeil, macht er <b>zusätzlich 3W6 Feuerschaden</b>. Der Pfeil verbrennt dabei und ist verbraucht.<br>Zieht ein Pfeil, leuchtet die Rune auf: Im Dunkeln bist du <b>sichtbar</b>, solange du einen auf der Sehne hast.",
+  "tom": "Trolle mögen das nicht. Hab ich gehört. Von einem Troll.",
+  "img": "a bundle of twelve arrows with red-hot rune-carved heads on a dwarven anvil"
+ }
+]

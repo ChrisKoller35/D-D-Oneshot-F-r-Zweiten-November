@@ -1,0 +1,130 @@
+<title>Die letzte Großtat</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: fixed chapter tree on the left like a book's table of contents, reading column on the right; phone stacks with a toggle. */
+:root{
+  --bg:#e9ebee; --paper:#f6f6f3; --ink:#1e2430; --muted:#5d6675; --line:#cfd4dc;
+  --accent:#2f5775; --gold:#9a7a2c; --quote:#eef1f4; --hover:#dfe4ea; --active:#d6e0ea;
+  --display:"Cinzel",Georgia,serif; --body:"Source Serif 4",Georgia,"Times New Roman",serif; --mono:"IBM Plex Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#171a20; --paper:#1f242c; --ink:#e4e6ea; --muted:#9aa3b0; --line:#343b47;
+  --accent:#8fb6d6; --gold:#d2b15c; --quote:#262c36; --hover:#262c36; --active:#2c3744; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#171a20; --paper:#1f242c; --ink:#e4e6ea; --muted:#9aa3b0; --line:#343b47;
+  --accent:#8fb6d6; --gold:#d2b15c; --quote:#262c36; --hover:#262c36; --active:#2c3744; color-scheme:dark }
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55}
+.app{display:flex;height:100%;min-height:0}
+nav{width:300px;flex:none;background:var(--bg);border-right:1px solid var(--line);overflow-y:auto;
+  padding-block:18px 32px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:12px}
+.brand{font-family:var(--display);font-weight:700;font-size:1.05rem;letter-spacing:.04em;color:var(--ink);margin:0 0 2px 8px}
+.sub{font-size:.8rem;color:var(--muted);margin:0 0 16px 8px}
+nav ul{list-style:none;margin:0;padding:0}
+nav li{margin:0}
+nav a,nav button.grp{display:block;width:100%;text-align:left;background:none;border:0;cursor:pointer;color:var(--ink);
+  font:inherit;font-size:.95rem;padding:5px 8px;border-radius:5px;text-decoration:none;line-height:1.3}
+nav a:hover,nav button.grp:hover{background:var(--hover)}
+nav a.on{background:var(--active);color:var(--accent);font-weight:600}
+nav button.grp{font-family:var(--display);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+nav button.grp::before{content:"▸";display:inline-block;width:1.1em;transition:transform .15s}
+nav li.open>button.grp::before{transform:rotate(90deg)}
+nav li>ul{display:none;padding-left:14px}
+nav li.open>ul{display:block}
+nav ul ul button.grp{text-transform:none;letter-spacing:0;font-family:var(--body);font-size:.93rem;color:var(--ink);margin-top:2px}
+main{flex:1;min-width:0;overflow-y:auto;background:var(--paper);
+  padding-block:28px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+article{max-width:46rem;margin:0 auto}
+.crumb{font-family:var(--mono);font-size:.74rem;color:var(--muted);margin-bottom:14px;word-break:break-all}
+article h1{font-family:var(--display);font-weight:700;font-size:1.75rem;line-height:1.2;margin:0 0 .7em;color:var(--ink);text-wrap:balance;
+  border-bottom:2px solid var(--gold);padding-bottom:.35em}
+article h2{font-family:var(--display);font-weight:500;font-size:1.2rem;margin:1.8em 0 .5em;color:var(--accent);text-wrap:balance}
+article h3{font-size:1.05rem;font-weight:600;margin:1.4em 0 .4em}
+article p{margin:0 0 .9em}
+article blockquote{margin:1em 0;padding:.7em 1em;background:var(--quote);border-left:3px solid var(--gold);font-style:italic}
+article blockquote p:last-child{margin:0}
+article a{color:var(--accent)}
+article code{font-family:var(--mono);font-size:.85em;background:var(--quote);padding:.1em .3em;border-radius:3px}
+article pre{background:var(--quote);padding:.8em 1em;overflow-x:auto;border-radius:5px;font-size:.82rem;line-height:1.35}
+article pre code{background:none;padding:0}
+.tbl{overflow-x:auto;margin:1em 0}
+article table{border-collapse:collapse;width:100%;font-size:.93rem;font-variant-numeric:tabular-nums}
+article th,article td{border:1px solid var(--line);padding:.4em .6em;text-align:left;vertical-align:top}
+article th{background:var(--quote);font-weight:600}
+article hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+article ul,article ol{padding-left:1.4em;margin:0 0 .9em}
+article li{margin:.2em 0}
+.pager{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:3em;padding-top:1em;border-top:1px solid var(--line);font-size:.9rem}
+.pager a{color:var(--accent);text-decoration:none}
+.topbar{display:none;position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+  padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));align-items:center;gap:12px}
+.topbar button{font:inherit;font-size:.9rem;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:5px;padding:6px 12px;cursor:pointer}
+.topbar span{font-family:var(--display);font-size:.9rem}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:760px){
+  .app{flex-direction:column}
+  .topbar{display:flex}
+  nav{width:100%;border-right:0;border-bottom:1px solid var(--line);max-height:60vh;padding-right:max(16px,env(safe-area-inset-right,0px))}
+  nav[hidden]{display:none}
+  main{overflow:visible}
+  body{height:auto} html{height:auto}
+}
+@media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+img.map{display:block;max-width:100%;height:auto;background:#fff;border:1px solid #d8d0c0;border-radius:6px;margin:12px 0 20px;}
+/* Monsterkarten und Trankkarten: Bilder im Raster, Bogen = 2 Spalten, Karte = 4 Spalten */
+.bogen-grid,.karten-grid{display:grid;gap:14px;margin:12px 0 24px;}
+.bogen-grid{grid-template-columns:repeat(2,1fr);} .karten-grid{grid-template-columns:repeat(4,1fr);}
+.bogen-grid figure,.karten-grid figure{margin:0;} .bogen-grid img,.karten-grid img{display:block;width:100%;height:auto;border:1px solid #d8d0c0;border-radius:6px;background:#fff;}
+.bogen-grid figcaption,.karten-grid figcaption{font-size:.85em;text-align:center;margin-top:4px;opacity:.8;}
+@media (max-width:760px){ .bogen-grid{grid-template-columns:1fr;} .karten-grid{grid-template-columns:repeat(2,1fr);} }
+</style>
+<div class="topbar"><button id="navtoggle" type="button">Kapitel</button><span>Die letzte Großtat</span></div>
+<div class="app">
+<nav id="nav"><p class="brand">Die letzte Großtat</p><p class="sub">Oneshot vor dem Spiegeldämon · 3 Helden, Stufe 8, plus Milo</p><ul id="tree"></ul></nav>
+<main id="main"><article id="art"></article></main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script>
+const DATA = /*__DATA__*/;
+const order = [];
+function buildTree(items, ul, depth){
+  for(const it of items){
+    const li = document.createElement('li');
+    if(it.type==='page'){
+      const a = document.createElement('a'); a.href='#'+it.id; a.textContent=it.title; a.dataset.id=it.id; li.appendChild(a); order.push(it.id);
+    } else {
+      li.className = depth===0 ? 'open' : '';
+      const b = document.createElement('button'); b.type='button'; b.className='grp'; b.textContent=it.title;
+      b.onclick=()=>li.classList.toggle('open'); li.appendChild(b);
+      const sub = document.createElement('ul'); buildTree(it.children, sub, depth+1); li.appendChild(sub);
+    }
+    ul.appendChild(li);
+  }
+}
+buildTree(DATA.tree, document.getElementById('tree'), 0);
+marked.setOptions({gfm:true, breaks:false});
+function show(id){
+  const p = DATA.pages[id] || DATA.pages['readme']; if(!DATA.pages[id]) id='readme';
+  const art = document.getElementById('art');
+  let html = marked.parse(p.md);
+  html = html.replace(/<table>/g,'<div class="tbl"><table>').replace(/<\/table>/g,'</table></div>');
+  const i = order.indexOf(id);
+  let pager = '<div class="pager">';
+  pager += i>0 ? `<a href="#${order[i-1]}">← ${DATA.pages[order[i-1]].title}</a>` : '<span></span>';
+  pager += i<order.length-1 ? `<a href="#${order[i+1]}">${DATA.pages[order[i+1]].title} →</a>` : '';
+  pager += '</div>';
+  art.innerHTML = `<div class="crumb">${p.path}</div>` + html + pager;
+  document.querySelectorAll('nav a').forEach(a=>{ a.classList.toggle('on', a.dataset.id===id);
+    if(a.dataset.id===id){ let el=a.parentElement; while(el && el.id!=='tree'){ if(el.tagName==='LI') el.classList.add('open'); el=el.parentElement; } } });
+  const main=document.getElementById('main'); main.scrollTop=0; window.scrollTo(0,0);
+  if(window.innerWidth<=760) document.getElementById('nav').hidden=true;
+  try{ localStorage.setItem('grosstat-page', id); }catch(e){}
+}
+function route(){ const h=location.hash.replace('#',''); let id=h; if(!id){ try{ id=localStorage.getItem('grosstat-page')||''; }catch(e){} } show(id||'readme'); }
+window.addEventListener('hashchange', route);
+document.getElementById('navtoggle').onclick=()=>{ const n=document.getElementById('nav'); n.hidden=!n.hidden; };
+if(window.innerWidth<=760) document.getElementById('nav').hidden=true;
+route();
+</script>

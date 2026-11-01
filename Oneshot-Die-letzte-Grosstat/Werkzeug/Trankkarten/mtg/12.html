@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,500&family=Spectral+SC:wght@600;700&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:750px;height:1050px;background:transparent}
+.card{width:750px;height:1050px;border-radius:34px;background:#0b0b0b;padding:30px 28px 46px;position:relative}
+.frame{height:100%;border-radius:12px;padding:16px 16px 14px;display:flex;flex-direction:column;
+ background:
+  radial-gradient(circle at 20% 15%,rgba(255,255,255,.18),transparent 40%),
+  radial-gradient(circle at 80% 85%,rgba(0,0,0,.35),transparent 45%),
+  repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 3px,rgba(0,0,0,.05) 3px 7px),
+  linear-gradient(160deg,color-mix(in srgb,var(--h) 80%,#fff),var(--h) 45%,color-mix(in srgb,var(--h) 55%,#000));
+ box-shadow:inset 0 0 0 2px rgba(0,0,0,.5),inset 0 0 18px rgba(0,0,0,.5)}
+.bar{display:flex;align-items:center;justify-content:space-between;padding:0 14px 0 18px;height:60px;border-radius:10px/30px;
+ background:linear-gradient(180deg,color-mix(in srgb,var(--h) 18%,#fbf6ea),color-mix(in srgb,var(--h) 30%,#d8cfbd));
+ border:3px solid color-mix(in srgb,var(--h) 40%,#222);box-shadow:0 3px 4px rgba(0,0,0,.55),inset 0 2px 0 rgba(255,255,255,.7);position:relative;z-index:2}
+.name{flex:1;min-width:0;white-space:nowrap;overflow:hidden;font-family:'Spectral SC',serif;font-weight:700;font-size:var(--fs);color:#111;line-height:1}
+.mana{width:40px;height:40px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;
+ font-family:Cinzel,serif;font-weight:700;font-size:22px;color:#111;background:radial-gradient(circle at 35% 30%,#fff,color-mix(in srgb,var(--h) 45%,#ddd));
+ box-shadow:-2px 2px 0 #000}
+.art{margin:-4px 8px 0;height:452px;border:3px solid #111;border-top-width:6px;overflow:hidden;background:#000;position:relative;z-index:1}
+.art img{width:100%;height:100%;object-fit:cover;display:block}
+.type{margin-top:-4px}
+.type .name{font-size:27px}
+.set{width:38px;height:38px;flex:none}
+.box{flex:1;margin:-4px 8px 0;padding:18px 22px 14px;border:3px solid color-mix(in srgb,var(--h) 40%,#222);border-top:0;
+ background:radial-gradient(ellipse at 50% 30%,color-mix(in srgb,var(--h) 8%,#f8f1df),color-mix(in srgb,var(--h) 22%,#e3d6b8));
+ font-family:'Crimson Pro',serif;color:#111;display:flex;flex-direction:column;justify-content:center;gap:12px;box-shadow:inset 0 0 12px rgba(0,0,0,.25)}
+.rule{font-size:var(--ws);line-height:1.22}
+.rule b{font-weight:700}
+.flav{font-style:italic;font-size:calc(var(--ws) - 3px);line-height:1.2;color:#222}
+.flav span{display:block;text-align:right;font-style:normal}
+.hr{height:1px;background:linear-gradient(90deg,transparent,rgba(0,0,0,.45),transparent)}
+.foot{position:absolute;left:44px;right:40px;bottom:12px;display:flex;justify-content:space-between;align-items:flex-end;
+ font-family:'Crimson Pro',serif;font-size:15px;color:#ddd;line-height:1.2}
+.pt{position:absolute;right:40px;bottom:30px;min-width:96px;height:52px;border-radius:8px;display:flex;align-items:center;justify-content:center;
+ font-family:'Crimson Pro',serif;font-weight:700;font-size:32px;color:#111;padding:0 12px;
+ background:linear-gradient(180deg,color-mix(in srgb,var(--h) 18%,#fbf6ea),color-mix(in srgb,var(--h) 30%,#d8cfbd));
+ border:3px solid color-mix(in srgb,var(--h) 40%,#222);box-shadow:0 3px 4px rgba(0,0,0,.6)}
+</style></head><body>
+<div class=card style="--h:#8a2a12;--fs:34px;--ws:25px"><div class=frame>
+<div class=bar><div class=name>Feuerpfeile</div><div class=mana>12</div></div>
+<div class=art><img src="file:///mnt/attach/project-files/D&D Story vorgeschichte/Oneshot-Die-letzte-Grosstat/Werkzeug/Trankkarten/img/12.png"></div>
+<div class="bar type"><div class=name>Munition — Orvins Glutrune</div><svg class=set viewBox="0 0 40 40"><defs><linearGradient id=g x1=0 y1=0 x2=0 y2=1><stop offset=0 stop-color="#e8eef4"/><stop offset=1 stop-color="#8c99a6"/></linearGradient></defs>
+<path d="M16 4h8v3h-1.5v8.5C29 18 33 23 33 28.5 33 35 27 38 20 38S7 35 7 28.5C7 23 11 18 17.5 15.5V7H16z" fill="url(#g)" stroke="#000" stroke-width="2.2" stroke-linejoin="round"/></svg></div>
+<div class=box><div class=rule><b>12 Pfeile</b> mit Glutrune. Trifft ein Feuerpfeil, macht er <b>zusätzlich 3W6 Feuerschaden</b>. Der Pfeil verbrennt dabei und ist verbraucht.<br>Zieht ein Pfeil, leuchtet die Rune auf: Im Dunkeln bist du <b>sichtbar</b>, solange du einen auf der Sehne hast.</div><div class=hr></div>
+<div class=flav>«Trolle mögen das nicht. Hab ich gehört. Von einem Troll.»<span>— Schmied Orvin</span></div></div>
+</div>
+<div class=pt>12</div>
+<div class=foot><span>12 Pfeile · Ungewöhnlich<br>Orvins Schliffe · Die letzte Grosstat</span><span></span></div>
+</div><script>document.fonts.ready.then(()=>{for(const n of document.querySelectorAll('.bar .name')){let f=parseFloat(getComputedStyle(n).fontSize);while(n.scrollWidth>n.clientWidth&&f>18){f-=1;n.style.fontSize=f+'px'}}})</script></body></html>

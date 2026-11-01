@@ -1,0 +1,168 @@
+[
+ {
+  "nr": "0",
+  "name": "Toms Giftschrank",
+  "typ": "Regel",
+  "art": "So geht's",
+  "stk": "-",
+  "selt": "gewöhnlich",
+  "hue": "#33402a",
+  "wirk": "<b>Eines pro Nase.</b> Auftragen ist eine <b>Aktion</b> (Bonusaktion mit <i>Giftmischer</i>).<br><b>Kontakt/Verletzung:</b> auf eine Waffe oder 3 Geschosse, hält <b>1 Minute</b> oder bis zum ersten Treffer.<br><b>Eingenommen:</b> ins Essen oder Trinken (Fingerfertigkeit gegen Wahrnehmung).<br><b>Eingeatmet:</b> Würfel von <b>1,5 m</b> beim Öffnen oder Werfen.",
+  "tom": "Gifte zählen nicht als Tränke. Gifte zählen als Gifte. Und ihr sagt mir, auf wen.",
+  "img": ""
+ },
+ {
+  "nr": "1",
+  "name": "Wyverngift",
+  "art": "Verletzung",
+  "stk": "2 Stück",
+  "selt": "selten",
+  "hue": "#4a6b2a",
+  "wirk": "KON-Rettungswurf <b>SG 15</b>: <b>7W6 Giftschaden</b>, halb bei Erfolg.<br><span class=s>Mehr, wenn ihr in Kapitel 3 den Stachel einer toten Wyvern mitbringt.</span>",
+  "tom": "Die Drachen haben Stacheln. Ich sag's nur.",
+  "img": "a curved wyvern stinger tip set into a thick glass vial filled with oily yellow-green venom, a single venom drop hanging from the needle tip, sickly green glow."
+ },
+ {
+  "nr": "2",
+  "name": "Schlangengift",
+  "art": "Verletzung",
+  "stk": "genug",
+  "selt": "gewöhnlich",
+  "hue": "#5d7a3a",
+  "wirk": "KON-Rettungswurf <b>SG 11</b>: <b>3W6 Giftschaden</b>, halb bei Erfolg.",
+  "tom": "Das Anfängergift. Nicht beleidigt sein.",
+  "img": "a small plain vial of pale milky venom with a coiled shed snakeskin wrapped around it, a small snake skull beside it."
+ },
+ {
+  "nr": "3",
+  "name": "Drowgift",
+  "art": "Verletzung",
+  "stk": "genug",
+  "selt": "gewöhnlich",
+  "hue": "#3b3560",
+  "wirk": "KON-Rettungswurf <b>SG 13</b>, sonst <b>1 Stunde vergiftet</b>. Wer um 5 oder mehr scheitert, ist zusätzlich <b>bewusstlos</b>, bis er Schaden nimmt oder geweckt wird.",
+  "tom": "Für die Wache am Nebelsteig. Leise.",
+  "img": "a slim black obsidian vial with an inky dark-violet liquid, a spider-shaped silver stopper, a few tiny crossbow bolts lying next to it, faint violet glow, shadowy."
+ },
+ {
+  "nr": "4",
+  "name": "Purpurwurmgift",
+  "art": "Verletzung",
+  "stk": "1 Stück",
+  "selt": "sehr selten",
+  "hue": "#6a1f6e",
+  "wirk": "KON-Rettungswurf <b>SG 19</b>: <b>12W6 Giftschaden</b>, halb bei Erfolg.",
+  "tom": "Das hier kostet mehr als euer Pferd. Trefft.",
+  "img": "a heavy precious vial reinforced with gold bands, filled with thick glowing magenta-purple venom, a huge segmented purple worm stinger fragment beside it, intense purple glow."
+ },
+ {
+  "nr": "5",
+  "name": "Assassinenblut",
+  "art": "Eingenommen",
+  "stk": "genug",
+  "selt": "gewöhnlich",
+  "hue": "#7a2430",
+  "wirk": "KON-Rettungswurf <b>SG 10</b>: <b>1W12 Giftschaden</b> und <b>24 Stunden vergiftet</b>. Bei Erfolg halber Schaden und nicht vergiftet.",
+  "tom": "Schmeckt nach nichts. Das ist der Punkt.",
+  "img": "an elegant small crystal vial with a dark blood-red liquid, placed beside a silver wine goblet, a single red drop on the table, sinister."
+ },
+ {
+  "nr": "6",
+  "name": "Mitternachtstränen",
+  "art": "Eingenommen",
+  "stk": "genug",
+  "selt": "sehr selten",
+  "hue": "#1e2d5a",
+  "wirk": "Wirkt erst <b>um Mitternacht</b>: KON-Rettungswurf <b>SG 17</b>, <b>9W6 Giftschaden</b>, halb bei Erfolg.",
+  "tom": "Wer es trinkt, merkt nichts. Bis Mitternacht.",
+  "img": "a teardrop-shaped vial of deep midnight-blue liquid with tiny stars glittering inside, a crescent moon visible through a frosted window behind, an hourglass beside it, cold blue glow."
+ },
+ {
+  "nr": "7",
+  "name": "Bleiche Tinktur",
+  "art": "Eingenommen",
+  "stk": "genug",
+  "selt": "gewöhnlich",
+  "hue": "#8a8f86",
+  "wirk": "KON-Rettungswurf <b>SG 16</b>: <b>1W6 Giftschaden</b> und <b>vergiftet</b>. Wiederholt sich <b>jeden Tag</b>, bis ein Wurf gelingt.",
+  "tom": "Langsam. Für Leute, die ihr nicht mehr sehen wollt.",
+  "img": "a tall thin vial of ghostly pale grey-white liquid, a dropper stopper, faded dried white flowers beside it, pale cold light, melancholic."
+ },
+ {
+  "nr": "8",
+  "name": "Betäubung",
+  "art": "Eingenommen",
+  "stk": "genug",
+  "selt": "ungewöhnlich",
+  "hue": "#4c6a8a",
+  "wirk": "KON-Rettungswurf <b>SG 15</b>, sonst <b>4W6 Stunden kampfunfähig</b>.",
+  "tom": "Wenn ihr jemanden lebend wollt. Der Marschallin gefällt das.",
+  "img": "a squat round vial of cloudy slate-blue liquid with lazy swirling mist, poppy seed pods and a sleeping-mask cloth beside it, drowsy soft blue light."
+ },
+ {
+  "nr": "9",
+  "name": "Wahrheitsserum",
+  "art": "Eingenommen",
+  "stk": "genug",
+  "selt": "gewöhnlich",
+  "hue": "#b8962e",
+  "wirk": "KON-Rettungswurf <b>SG 11</b>, sonst <b>1 Stunde</b> wie unter <i>Zone der Wahrheit</i>.",
+  "tom": "Für den Spion. Falls ihr einen findet.",
+  "img": "a clear vial with shining golden liquid, a stopper shaped like an open eye, a quill and a rolled parchment beside it, warm honest golden glow."
+ },
+ {
+  "nr": "10",
+  "name": "Kriechergeifer",
+  "art": "Kontakt",
+  "stk": "genug",
+  "selt": "gewöhnlich",
+  "hue": "#6f7d2a",
+  "wirk": "KON-Rettungswurf <b>SG 13</b>, sonst <b>1 Minute gelähmt</b>. Jede Runde ein neuer Wurf.",
+  "tom": "Nicht an die eigenen Finger. Ich hab das gesehen.",
+  "img": "a wide-mouthed jar of slimy translucent olive-green mucus oozing over the rim, a pair of thick leather gloves next to it, a severed carrion crawler tentacle in a dish, sticky glistening."
+ },
+ {
+  "nr": "11",
+  "name": "Taggitöl",
+  "art": "Kontakt",
+  "stk": "genug",
+  "selt": "ungewöhnlich",
+  "hue": "#8a5a2a",
+  "wirk": "KON-Rettungswurf <b>SG 13</b>, sonst <b>24 Stunden bewusstlos</b>. Wacht bei Schaden auf.",
+  "tom": "Auf die Türklinke. Oder den Griff seiner Axt.",
+  "img": "a small oil flask with amber-brown oily liquid and a brush stopper, a glistening oiled iron door handle and the leather-wrapped grip of an axe next to it."
+ },
+ {
+  "nr": "12",
+  "name": "Verbrannte Othurdämpfe",
+  "art": "Eingeatmet",
+  "stk": "genug",
+  "selt": "ungewöhnlich",
+  "hue": "#5a4a3a",
+  "wirk": "KON-Rettungswurf <b>SG 13</b>: <b>3W6 Giftschaden</b> und <b>vergiftet</b>. Vergiftete wiederholen den Wurf jede Runde: <b>1W6 Gift</b> pro Fehlschlag, nach drei Erfolgen endet es.",
+  "tom": "Fenster auf. Dann werfen. Nicht umgekehrt.",
+  "img": "a round glass grenade-like vial filled with swirling dark smoky brown-grey fumes and smoldering ember specks, thin wisps of smoke leaking from the cork, an open shutter window behind."
+ },
+ {
+  "nr": "13",
+  "name": "Ätheressenz",
+  "art": "Eingeatmet",
+  "stk": "genug",
+  "selt": "ungewöhnlich",
+  "hue": "#5aa0a8",
+  "wirk": "KON-Rettungswurf <b>SG 15</b>, sonst <b>8 Stunden vergiftet</b> und <b>bewusstlos</b>. Wacht bei Schaden oder Wecken auf.",
+  "tom": "Ein Turm voller schlafender Goblins. Denkt mal drüber nach.",
+  "img": "a delicate glass vial filled with glowing pale-teal ethereal vapor that drifts in slow spirals, the cork barely holding it in, dreamy soft teal light, almost weightless."
+ },
+ {
+  "nr": "14",
+  "name": "Bosheit",
+  "art": "Eingeatmet",
+  "stk": "genug",
+  "selt": "gewöhnlich",
+  "hue": "#2a2a2a",
+  "wirk": "KON-Rettungswurf <b>SG 15</b>, sonst <b>1 Stunde vergiftet</b> und <b>blind</b>.",
+  "tom": "Für den mit der Ballista.",
+  "img": "a jagged black glass vial filled with pitch-black smoke that seems to swallow the candlelight around it, a cracked blindfold beside it, oppressive darkness."
+ }
+]
