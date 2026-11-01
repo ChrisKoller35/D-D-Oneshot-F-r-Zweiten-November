@@ -54,7 +54,7 @@ Tor (→ Kapitel 6).
 
 ## Keine Hilfe
 
-Hedda, das Heer und (falls dabei) Argentys kämpfen vor dem Tor gegen
+Hedda, das Heer und (falls dabei) Nymeria kämpfen vor dem Tor gegen
 den Rest der Horde. Niemand betritt die Halle, bevor der Anführer
 gefallen ist. Lass die Schlacht draußen hörbar sein – mehr nicht.
 

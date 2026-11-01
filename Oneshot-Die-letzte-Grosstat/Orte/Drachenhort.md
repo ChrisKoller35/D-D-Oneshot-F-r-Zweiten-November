@@ -1,7 +1,7 @@
 # Der Drachenhort
 
 Schauplatz von Kapitel 1c (optional): der Dungeon unter der
-Silberkanzel, in dem Argentys ihr Schwert **Silberzahn** versteckt hat.
+Silberkanzel, in dem Nymeria ihr Schwert **Silberzahn** versteckt hat.
 Drei Teile: **Ebene 1**, **Ebene 2** und der **Bossraum**.
 
 → Kampfkarten (Draufsicht mit Raster): `Karten/06-Echohallen-Ebene-1.png` bis `Karten/11-Echohallen-Spiegelkammer.png`, Legende in `Karten/Karten.md`.
@@ -23,7 +23,7 @@ Drei Teile: **Ebene 1**, **Ebene 2** und der **Bossraum**.
 Unter dem Felsvorsprung „Silberkanzel" am Rand der Wolkenwand
 (→ `Orte/Sturmgebiet.md`) liegt ein Höhlensystem, das der Wind
 ausgehöhlt hat: Kammern, verbunden durch Spalten und einen Schacht, in
-denen jedes Wort dreimal zurückkommt. Argentys hat hier vor Jahren
+denen jedes Wort dreimal zurückkommt. Nymeria hat hier vor Jahren
 Silberzahn eingeschlossen. Seit sie gefesselt im Talkessel liegt, hat
 niemand mehr die Hallen bewacht, und die Bestien des Sturmgebiets
 haben sie besetzt: oben die Flieger und das Rudel, unten die Trolle,

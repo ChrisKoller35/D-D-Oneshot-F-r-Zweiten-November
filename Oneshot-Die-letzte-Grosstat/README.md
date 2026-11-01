@@ -43,7 +43,7 @@ ein, wo der Anführer der Horde, ein Gehörnter Teufel, in der großen Halle auf
 - **NPC/** – Verbündete, pro NPC ein Ordner mit **Stats/** und **Faehigkeiten/**
   - Milo Klee (der NPC-Gefährte), Druide Tom, Schmied Orvin, Marschallin
     Hedda, Rittmeisterin Lenja (Greifen), Sturmmagier Elion (der Bote),
-    Silberdrachin Argentys, Soldaten und Trupp Eisenwacht
+    Silberdrachin Nymeria, Soldaten und Trupp Eisenwacht
     (Hauptmann Corvin Rask, Meuchler, Soldaten für die Feiern)
 - **Feinde/** – seit 1.11.2026 nur noch **eine Seite**: `Feinde/Uebersicht.md`,
   die Kampfübersicht (Kampf für Kampf: welche Monster, wie viele, HG, RK, TP,
@@ -63,7 +63,7 @@ ein, wo der Anführer der Horde, ein Gehörnter Teufel, in der großen Halle auf
 
 1. **Kriegsrat und Siegesfeier** (Rabenwacht: Aufräumen, Heddas Verhör, Gespräch im Hof, Besprechungsbüro, Feier)
    - optional **1b: Der Tunnel des Spions** (Verfolgung, Hinterhalt, Tränke zurück)
-   - optional **1c: Die gekettete Drachin** (Argentys in Ketten, Dungeon Drachenhort, Schwert Silberzahn; überspringt Kapitel 2–4)
+   - optional **1c: Die gekettete Drachin** (Nymeria in Ketten, Dungeon Drachenhort, Schwert Silberzahn; überspringt Kapitel 2–4)
 2. **Der Weg zu den Türmen** (Greifen, dann leise oder dreist)
 3. **Die Geschütztürme** (Ballisten, Drachenjagd)
 4. **Die Schlacht auf der Ebene** (Feuerbälle, drei große Ziele)

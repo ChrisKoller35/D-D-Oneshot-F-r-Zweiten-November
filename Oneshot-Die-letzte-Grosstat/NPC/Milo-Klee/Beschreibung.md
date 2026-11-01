@@ -4,6 +4,10 @@ Der vierte Mann der Gruppe: Bauer, Koch, Heiler – und **NPC**, den der
 Erzähler spielt. Er gehört zu den Helden wie ein Bruder, den man nicht
 bestellt hat, der aber immer etwas zu essen dabeihat.
 
+<img class="portrait" src="Bilder/Milo-Klee.jpg" alt="Milo Klee">
+
+*Milo Klee*
+
 ## Erscheinung & Wesen
 
 Anfang dreißig, breit, rund im Gesicht, Hände wie Schaufeln,

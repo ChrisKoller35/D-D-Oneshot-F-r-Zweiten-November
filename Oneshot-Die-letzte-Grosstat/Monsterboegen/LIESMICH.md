@@ -4,7 +4,7 @@ Alle Gegner des Oneshots als Druckbögen, Stand 25.10.2026. (Hinweis 31.10.2026:
 
 ## A4, ein Monster pro Blatt (`01` bis `17`)
 
-01 Uralter Silberdrache (Argentys) · 02 Höllenfeuer-Maschine · 03 Assassine · 04 Bugbear-Krieger · 05 Bugbear-Pirscher · 06 Feuerriese · 07 Fäulnistroll · 08 Kriegspriester · 09 Gehörnter Teufel · 10 Schreckenstroll · 11 Champion · 12 Gifttroll · 13 Chimäre · 14 Wyvern · 15 Hobgoblin-Verwüster · 16 Ausgewachsener Silberdrache · 17 Junger Silberdrache (16 und 17 seit 1.11.2026: spontane Optionen, bewusst ohne Bild und ohne Infokästen)
+01 Uralter Silberdrache (Nymeria) · 02 Höllenfeuer-Maschine · 03 Assassine · 04 Bugbear-Krieger · 05 Bugbear-Pirscher · 06 Feuerriese · 07 Fäulnistroll · 08 Kriegspriester · 09 Gehörnter Teufel · 10 Schreckenstroll · 11 Champion · 12 Gifttroll · 13 Chimäre · 14 Wyvern · 15 Hobgoblin-Verwüster · 16 Ausgewachsener Silberdrache · 17 Junger Silberdrache (16 und 17 seit 1.11.2026: spontane Optionen, bewusst ohne Bild und ohne Infokästen)
 
 ## Viertel-A4, vier Karten pro Blatt (`K1` bis `K5`, je 105 × 148 mm, Schnittlinien gestrichelt)
 

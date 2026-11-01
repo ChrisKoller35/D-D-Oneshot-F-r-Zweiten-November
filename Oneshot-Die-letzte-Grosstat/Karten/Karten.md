@@ -42,7 +42,7 @@ Nur das Gelände: Berg links, Sturm rechts, dazwischen das Tal mit Verengung und
 - [6] **Kessel (?):** Unten links eine vom Fels umschlossene Bucht, eine Sackgasse. Rechts davon, um die Felsnase herum, führt das Tal weiter.
 - [7] **Ausgang, offen:** Die Schlucht läuft offen aus, ohne Tor und ohne Schleuse.
 - [8] **Felsgrat:** Der Grat rechts, zwischen Tal und Sturmgebiet.
-- [9] **Sturm:** Wolken und Blitze rechts des Grats, Argentys' Himmel.
+- [9] **Sturm:** Wolken und Blitze rechts des Grats, Nymerias Himmel.
 - **Weggelassen:** Türme und Heere, wie gewünscht. Auch die kleinen Kreise an den Talwänden in deiner Skizze; wenn das Turmstandorte sind, sag es.
 
 ## Die ganze Region (`03-Region-Uebersicht.svg`)
