@@ -86,9 +86,9 @@ Dungeon in drei Teilen: **Ebene 1, Ebene 2, Bossraum**
   Reichweite, rund 80 Schaden pro Runde auf ein Ziel), Klauenwirbel
   (GES DC 19, 8W10 auf alle in 3 m). Resistenz gegen nichtmagische
   Waffen (spielt bei Orvins Schliffen keine Rolle).
-- **Stirbt nur**, wenn er bei 0 TP von einem Angriff mit mindestens 10
-  Feuer- oder Säureschaden getroffen wird; sonst steht er im nächsten
-  Zug wieder auf. Feuerquellen: Ölfässer, Trank des Feueratems,
+- **Stirbt nur**, wenn er bei 0 TP **Feuer- oder Säureschaden** nimmt,
+  egal wie viel (wie beim Troll 2024); sonst steht er im nächsten Zug
+  wieder auf. Feuerquellen: Ölfässer, Trank des Feueratems,
   Feuerpfeile (→ `Belohnungen/Uebersicht.md`).
 - 10 000 EP, deutlich über «hoch» – mit Absicht. Nicht abschwächen, die
   Rast am Abstieg großzügig geben.

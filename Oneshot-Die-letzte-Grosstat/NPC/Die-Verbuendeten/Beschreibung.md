@@ -11,6 +11,13 @@ Totenfeuer (Kapitel 7). Werte haben sie trotzdem (→
 vorne stehen und die Höllenfeuer-Maschine aufhalten, bis die Helden
 kommen.
 
+## Auf einen Blick
+
+- **Sildoras** – Süden – Sonnenlanzen (Lanzenreiter) – Ritter Aurel Vanthis – 300
+- **Dhurgan** – Westen – Hammergarde (Zwerge: Armbrüste, Pioniere) – Brannok Grauhammer – 150
+- **Skarn** – Norden (Hochland in den Gipfeln) – Goliath-Clans (Träger) – Thuluk Wolkentreter – 12
+- **Thalvien** – Südosten – Grünpfeile (Langbogenschützen, Waldläufer) – Hauptfrau Sarenne Ilwyn – 200
+
 ## Sildoras – das Weinland im Süden
 
 Ein warmes Fürstentum jenseits der Südberge: Weinberge an den Hängen,

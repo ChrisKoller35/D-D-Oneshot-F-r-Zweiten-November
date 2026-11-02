@@ -63,7 +63,9 @@ article li{margin:.2em 0}
 .topbar button{font:inherit;font-size:.9rem;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:5px;padding:6px 12px;cursor:pointer}
 .topbar span{font-family:var(--display);font-size:.9rem}
 a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-@media (max-width:760px){
+/* Seitenleiste bleibt bis 640 px Fensterbreite stehen (zwischen 641 und 1000 px schmaler); erst darunter stapelt die Seite und der Knopf «Kapitel» erscheint. */
+@media (min-width:641px) and (max-width:1000px){ nav{width:230px} nav a,nav button.grp{font-size:.9rem;padding:4px 6px} }
+@media (max-width:640px){
   .app{flex-direction:column}
   .topbar{display:flex}
   nav{width:100%;border-right:0;border-bottom:1px solid var(--line);max-height:60vh;padding-right:max(16px,env(safe-area-inset-right,0px))}
@@ -106,7 +108,12 @@ function buildTree(items, ul, depth){
 }
 buildTree(DATA.tree, document.getElementById('tree'), 0);
 marked.setOptions({gfm:true, breaks:false});
-function show(id){
+/* Schmales Fenster: Kapitelliste ist standardmaessig offen; der Knopf «Kapitel» merkt sich offen/zu in localStorage. */
+const NARROW = 640;
+function narrow(){ return window.innerWidth<=NARROW; }
+function navPref(){ try{ return localStorage.getItem('grosstat-nav')||'open'; }catch(e){ return 'open'; } }
+function setNav(open){ document.getElementById('nav').hidden = !open; try{ localStorage.setItem('grosstat-nav', open?'open':'closed'); }catch(e){} }
+function show(id, jump){
   const p = DATA.pages[id] || DATA.pages['readme']; if(!DATA.pages[id]) id='readme';
   const art = document.getElementById('art');
   let html = marked.parse(p.md);
@@ -120,12 +127,13 @@ function show(id){
   document.querySelectorAll('nav a').forEach(a=>{ a.classList.toggle('on', a.dataset.id===id);
     if(a.dataset.id===id){ let el=a.parentElement; while(el && el.id!=='tree'){ if(el.tagName==='LI') el.classList.add('open'); el=el.parentElement; } } });
   const main=document.getElementById('main'); main.scrollTop=0; window.scrollTo(0,0);
-  if(window.innerWidth<=760) document.getElementById('nav').hidden=true;
+  if(jump && narrow() && !document.getElementById('nav').hidden) main.scrollIntoView({block:'start'});
   try{ localStorage.setItem('grosstat-page', id); }catch(e){}
 }
-function route(){ const h=location.hash.replace('#',''); let id=h; if(!id){ try{ id=localStorage.getItem('grosstat-page')||''; }catch(e){} } show(id||'readme'); }
-window.addEventListener('hashchange', route);
-document.getElementById('navtoggle').onclick=()=>{ const n=document.getElementById('nav'); n.hidden=!n.hidden; };
-if(window.innerWidth<=760) document.getElementById('nav').hidden=true;
-route();
+function route(jump){ const h=location.hash.replace('#',''); let id=h; if(!id){ try{ id=localStorage.getItem('grosstat-page')||''; }catch(e){} } show(id||'readme', jump); }
+window.addEventListener('hashchange', ()=>route(true));
+document.getElementById('navtoggle').onclick=()=>{ setNav(document.getElementById('nav').hidden); };
+document.getElementById('nav').hidden = narrow() && navPref()==='closed';
+window.addEventListener('resize', ()=>{ if(!narrow()) document.getElementById('nav').hidden=false; else if(navPref()==='closed') document.getElementById('nav').hidden=true; });
+route(false);
 </script>

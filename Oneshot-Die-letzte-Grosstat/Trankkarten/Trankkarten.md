@@ -15,14 +15,14 @@ Druckfassung: `Trankkarten/Druckbogen-Trankkarten-A4.pdf`, `Trankkarten/Nachdruc
 <figure><img src="Trankkarten/08-Trank-des-Wachstums.jpg" alt="Trank des Wachstums"><figcaption>Trank des Wachstums</figcaption></figure>
 <figure><img src="Trankkarten/09-Trank-der-Verkleidung.jpg" alt="Trank der Verkleidung"><figcaption>Trank der Verkleidung</figcaption></figure>
 <figure><img src="Trankkarten/10-Trank-der-Vitalitaet.jpg" alt="Trank der Vitalität"><figcaption>Trank der Vitalität</figcaption></figure>
-<figure><img src="Trankkarten/11-Trank-des-Feueratems.jpg" alt="Trank des Feüratems"><figcaption>Trank des Feüratems</figcaption></figure>
+<figure><img src="Trankkarten/11-Trank-des-Feueratems.jpg" alt="Trank des Feueratems"><figcaption>Trank des Feueratems</figcaption></figure>
 <figure><img src="Trankkarten/99-Trank-der-Schnelligkeit.jpg" alt="Trank der Schnelligkeit"><figcaption>Trank der Schnelligkeit</figcaption></figure>
 </div>
 
 ## Feuerpfeile
 
 <div class="karten-grid">
-<figure><img src="Trankkarten/12-Feuerpfeile.jpg" alt="Feürpfeile"><figcaption>Feürpfeile</figcaption></figure>
+<figure><img src="Trankkarten/12-Feuerpfeile.jpg" alt="Feuerpfeile"><figcaption>Feuerpfeile</figcaption></figure>
 </div>
 
 ## Toms Giftschrank

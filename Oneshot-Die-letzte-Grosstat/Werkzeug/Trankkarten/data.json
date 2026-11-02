@@ -133,7 +133,7 @@
   "von": "Schmied Orvin",
   "foot": "Orvins Schliffe",
   "tot": "12 Pfeile",
-  "wirk": "<b>12 Pfeile</b> mit Glutrune. Trifft ein Feuerpfeil, macht er <b>zusätzlich 3W6 Feuerschaden</b>. Der Pfeil verbrennt dabei und ist verbraucht.<br>Zieht ein Pfeil, leuchtet die Rune auf: Im Dunkeln bist du <b>sichtbar</b>, solange du einen auf der Sehne hast.",
+  "wirk": "<b>12 Pfeile</b> mit Glutrune. Trifft ein Feuerpfeil, macht er <b>zusätzlich 1W6 Feuerschaden</b>. Der Pfeil verbrennt dabei und ist verbraucht.<br>Zieht ein Pfeil, leuchtet die Rune auf: Im Dunkeln bist du <b>sichtbar</b>, solange du einen auf der Sehne hast.",
   "tom": "Trolle mögen das nicht. Hab ich gehört. Von einem Troll.",
   "img": "a bundle of twelve arrows with red-hot rune-carved heads on a dwarven anvil"
  }

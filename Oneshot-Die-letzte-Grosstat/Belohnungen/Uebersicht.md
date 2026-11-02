@@ -20,7 +20,6 @@ im Hordenlager. Werte nach dem Spielleiterhandbuch 2024.
 
 Karte `Trankkarten/12-Feuerpfeile.png`: **12 Pfeile** mit Glutrune,
 einmal für die Gruppe. Trifft ein Feuerpfeil, macht er zusätzlich
-**3W6 Feuerschaden**; der Pfeil verbrennt dabei. Ein gezogener Pfeil
-leuchtet, im Dunkeln ist der Schütze sichtbar. Gedacht für den
-Schreckenstroll (Todesstoß braucht 10 Feuer oder Säure in einem
-Treffer).
+**1W6 Feuerschaden** (wie der Zauber *Flammenpfeile*); der Pfeil
+verbrennt dabei. Ein gezogener Pfeil leuchtet, im Dunkeln ist der
+Schütze sichtbar. Gedacht für den Schreckenstroll (→ `Feinde/Uebersicht.md`).

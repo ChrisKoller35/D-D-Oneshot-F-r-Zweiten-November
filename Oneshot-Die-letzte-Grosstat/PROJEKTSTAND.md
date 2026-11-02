@@ -159,7 +159,9 @@ von Goblin/Hobgoblin/Ork, damit der Türme-Plan nicht verraten wird, neues
 Bild ohne Goblingesichter); Schnelligkeit nur «vielleicht 1×».
 **Seit 1.11.2026:** Nr. 11 Trank des Feueratems (2 Stück, 2024 DMG, Bonusaktion,
 9 m, GES DC 13, 4W6 Feuer, 3 Stösse) und bei Orvin **Feuerpfeile** (12 Pfeile,
-+3W6 Feuer, einmalig), beides als Feuerquelle gegen den Schreckenstroll;
++1W6 Feuer wie *Flammenpfeile*, einmalig; 2.11.2026 von Christoph von 3W6 auf 1W6
+gesetzt, dafür Schreckenstroll-Regel: bei 0 TP tötet jedes Feuer/jede Säure),
+beides als Feuerquelle gegen den Schreckenstroll;
 Karten `Trankkarten/11-…` und `12-…`, Druckbogen `Trankkarten/Feuer/`.
 Gestrichen: Feuerschutz, Öl der Schärfe, Unverwundbarkeit, Höchster Heiltrank.
 Toms Giftschrank: 14 Gifte nach Spielleiterhandbuch, ein Gift pro Held
@@ -638,6 +640,16 @@ API-Schlüssel sind im neuen Projekt noch nicht hinterlegt (Abschnitt 8).
   kleinen Karten; Sammel-PDFs; `LIESMICH.md` dort listet alles. Werkzeug:
   `Monsterboegen/Werkzeug/` (`build_alle.py`, `daten_*.py`, `render.js`,
   `gen_bilder.py`).
+- `Verbuendete-Karten/` (2.11.2026, Buch V79, Navigation «Verbündete – Druckbögen»):
+  Nordgar-Karte mit Infoboxen zu Hedda und den vier Hauptleuten (Name, Land,
+  womit sie kämpfen, RK/TP) als A4-PDF (`01-…`), je ein A4-Bogen pro Person
+  mit Porträt, Buchtext und Werten (`02` bis `06`), Sammel-PDF
+  `Verbuendete-alle-A4.pdf`. Texte werden beim Bauen aus
+  `NPC/Die-Verbuendeten/` und `NPC/Marschallin-Hedda/` gelesen (nichts
+  doppelt gepflegt): `python3 Werkzeug/Verbuendete/bau.py <out>` dann
+  `node Werkzeug/Verbuendete/render.js <out>`, Ergebnis in den Ordner kopieren.
+  Lage der Boxen: Skarn oben links (Richtung im Buch nicht festgelegt), Dhurgan
+  links, Sildoras unten, Thalvien rechts unten, Hedda bei Burg Rabenwacht.
 - `Audio/` – vier Goblin-Schrei-MP3 (ElevenLabs; Christoph: «gar nicht so
   schlecht», später weiter).
 - `Werkzeug/` – Skripte zum Nachbauen (siehe `Werkzeug/LIESMICH.md`).
