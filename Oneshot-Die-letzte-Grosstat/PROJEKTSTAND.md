@@ -1,6 +1,6 @@
 # Projektstand «Die letzte Großtat» – Übergabe
 
-Stand: 31. Oktober 2026 (UTC, spät abends). Diese Datei ist das Gedächtnis des
+Stand: 2. November 2026 (UTC, nachmittags; Buch Version 81, GitHub main = Projektordner). Diese Datei ist das Gedächtnis des
 Projekts in aufgeräumter Form, damit in einem neuen Chat oder Thread sofort
 weitergearbeitet werden kann. Pro Kapitel steht in Abschnitt 4 eine
 **Stand**-Zeile (fertig / in Arbeit / offen) und darunter **Offen**, also die
@@ -686,6 +686,18 @@ mit den Skripten in `Werkzeug/` neu; `Buch.html` ersetzt die Buchseite auch
 ohne Claude.
 
 ## 8. Werkzeuge und Umgebung
+
+- **GitHub-Repo (seit 1.11.2026):**
+  https://github.com/ChrisKoller35/D-D-Oneshot-F-r-Zweiten-November – Spiegel
+  des ganzen Ordners «D&D Story vorgeschichte» (plus README.md und .gitignore).
+  Quelle der Wahrheit bleibt der Projektordner; nach Änderungen Ordner ins Repo
+  kopieren, Branch + PR, Merge auf Christophs Zuruf. Stand 2.11.2026 15:20 UTC:
+  PR #2 gemergt, `main` = Projektordner (Feuerpfeile 1W6, Troll-Regel,
+  Verbündete-Druckbögen, «Auf einen Blick», Seitenleiste 640 px, Buch V81).
+  Laptop-Klon `C:\Users\KBZGB064908\Documents\d & d oneshot 2 november`:
+  lokale, uncommittete Änderungen vom 2.11. (Template, Trankkarten.md,
+  Buch.html, Beschreibung.md) sind alle in `main` enthalten → dort
+  `git stash` (oder `git checkout -- .`) und `git pull origin main`.
 
 - **Buch bauen:** `Werkzeug/Buch/build.py` – läuft seit 25.10.2026 ohne
   Pfadanpassung (Pfade relativ zum Skript); Ziel der Artifact-Fassung per
