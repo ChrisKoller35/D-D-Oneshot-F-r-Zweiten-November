@@ -175,6 +175,7 @@ off = html.replace('<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1
 off = re.sub(r'<link rel="stylesheet" href="https://fonts.googleapis.com[^>]*>\n?', '', off)
 off = re.sub(r'((?:Karten/\d\d|Monsterboegen/(?:\d\d|K\d)|Trankkarten/(?:\d\d|Gifte/G\d\d)|Verbuendete-Karten/\d\d)-[A-Za-z0-9\-]+)\.jpg', r'\1.png', off)
 off = re.sub(r'(Bilder/[A-Za-z0-9\-]+)\.jpg', r'\1.png', off)   # NPC-Portraets
+off = '<!doctype html>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n' + off  # nur offline: Artifact setzt den Kopf selbst
 off = off.replace('<title>Die letzte Großtat</title>', '<title>Die letzte Großtat</title>\n<!-- Offline-Fassung des Kampagnenbuchs: liegt im Ordner Oneshot-Die-letzte-Grosstat, Karten relativ aus Karten/. Erzeugt von build.py; nach jeder Textaenderung neu bauen. -->')
 assert '<script src="https://cdnjs' not in off and 'fonts.googleapis.com/css2' not in off
 open(ROOT+'Buch.html','w',encoding='utf-8').write(off)
