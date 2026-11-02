@@ -10,7 +10,7 @@ Druckfassung: `Monsterboegen/Monsterboegen-A4-alle.pdf` (A4-Bögen), `Monsterboe
 <figure><img src="Monsterboegen/03-Assassine.jpg" alt="Assassine"><figcaption>Assassine</figcaption></figure>
 <figure><img src="Monsterboegen/04-Bugbear-Krieger.jpg" alt="Bugbear Krieger"><figcaption>Bugbear Krieger</figcaption></figure>
 <figure><img src="Monsterboegen/05-Bugbear-Pirscher.jpg" alt="Bugbear Pirscher"><figcaption>Bugbear Pirscher</figcaption></figure>
-<figure><img src="Monsterboegen/06-Feuerriese.jpg" alt="Feürriese"><figcaption>Feürriese</figcaption></figure>
+<figure><img src="Monsterboegen/06-Feuerriese.jpg" alt="Feuerriese"><figcaption>Feuerriese</figcaption></figure>
 <figure><img src="Monsterboegen/07-Faeulnistroll.jpg" alt="Fäulnistroll"><figcaption>Fäulnistroll</figcaption></figure>
 <figure><img src="Monsterboegen/08-Kriegspriester.jpg" alt="Kriegspriester"><figcaption>Kriegspriester</figcaption></figure>
 <figure><img src="Monsterboegen/09-Gehoernter-Teufel.jpg" alt="Gehörnter Teufel"><figcaption>Gehörnter Teufel</figcaption></figure>

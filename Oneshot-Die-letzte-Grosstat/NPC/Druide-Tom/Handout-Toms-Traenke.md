@@ -25,8 +25,7 @@ ist, bekommt der Schnellste):
 | ? | **Trank der Schnelligkeit** (gelbgrün, zischt) – **vielleicht 1 Stück** | sehr selten | 1 Minute wie *Hast* (doppelte Bewegung, +2 RK, Vorteil auf GES-Rettungswürfe, eine zusätzliche Aktion pro Zug), ohne Konzentration, ohne Erschöpfung danach | *(Steht nicht auf der Karte. Wer Tom direkt danach fragt – oder ihm etwas Gutes tut – bekommt ihn vielleicht. Einmal.)* „Den hab ich nicht. Offiziell." |
 
 *(Werte nach dem Spielleiterhandbuch 2024, Nummer 9 ist Toms
-Hausrezept. Nummer 11 hat Tom extra wegen der Trolle eingepackt: Bei 0 TP
-zählt jeder Feuerstoß des Tranks als Todesstoß, auch bei halbem Schaden. Toms Farben und Namen sind seine eigenen. Alles ohne
+Hausrezept. Nummer 11 hat Tom extra wegen der Trolle eingepackt. Toms Farben und Namen sind seine eigenen. Alles ohne
 Stückzahl ist genug da für alle.)*
 
 ---

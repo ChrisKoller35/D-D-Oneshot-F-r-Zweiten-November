@@ -17,7 +17,7 @@ def nice(name):
       'Sturmhueterin':'Sturmhüterin','Kettenfuerstin':'Kettenfürstin','Traenke':'Tränke','Uebersicht':'Übersicht',
       'Geschuetze':'Geschütze','Hauptquest-Die-letzte-Grosstat':'Hauptquest: Die letzte Großtat',
       'Oneshot-Die-letzte-Grosstat':'Die letzte Großtat','Chimaere':'Chimäre',
-      'Gehoernte':'Gehörnte','Kettenwaechter':'Kettenwächter','Winterwoelfe':'Winterwölfe'
+      'Gehoernte':'Gehörnte','Kettenwaechter':'Kettenwächter','Winterwoelfe':'Winterwölfe','Verbuendete-Karten':'Verbündete – Druckbögen','Verbuendete':'Verbündete'
     }
     for k,v in fixes.items(): name = name.replace(k, v)
     return name.replace('-', ' ')
@@ -26,7 +26,7 @@ def pid(rel):
     return re.sub(r'[^a-z0-9]+','-', rel.lower().replace('.md','')).strip('-')
 
 # Order
-order_top = ['README.md','Story','NPC','Feinde','Orte','Karten','Regeln','Quests','Belohnungen','Monsterboegen','Trankkarten']
+order_top = ['README.md','Story','NPC','Feinde','Orte','Karten','Regeln','Quests','Belohnungen','Monsterboegen','Trankkarten','Verbuendete-Karten']
 pages = {}   # id -> {title, path, html}
 tree = []    # nested nav
 
@@ -34,7 +34,7 @@ tree = []    # nested nav
 # Die Dateien bleiben im Ordner, sie erscheinen nur nicht in der Navigation.
 NICHT_IM_BUCH = {'Audio', 'Monster-Screenshots', 'Werkzeug', 'Sessions', 'PROJEKTSTAND.md', 'LIESMICH.md', 'README.md'}
 # Ordner, die im Buch nur als eine Seite erscheinen (Karten liegen als Bilder im Ordner)
-EINZELSEITE = {'Monsterboegen/': 'Monsterboegen/Monsterkarten.md', 'Trankkarten/': 'Trankkarten/Trankkarten.md'}
+EINZELSEITE = {'Monsterboegen/': 'Monsterboegen/Monsterkarten.md', 'Trankkarten/': 'Trankkarten/Trankkarten.md', 'Verbuendete-Karten/': 'Verbuendete-Karten/Verbuendete-Karten.md'}
 
 def walk(dirrel):
     entries = sorted(os.listdir(ROOT+dirrel))
@@ -173,7 +173,7 @@ open(OUT,'w',encoding='utf-8').write(html)
 _marked = open(os.path.join(HERE, 'marked.min.js'), encoding='utf-8').read()
 off = html.replace('<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>', '<script>'+_marked+'</script>')  # marked.min.js enthaelt kein </script
 off = re.sub(r'<link rel="stylesheet" href="https://fonts.googleapis.com[^>]*>\n?', '', off)
-off = re.sub(r'((?:Karten/\d\d|Monsterboegen/(?:\d\d|K\d)|Trankkarten/(?:\d\d|Gifte/G\d\d))-[A-Za-z0-9\-]+)\.jpg', r'\1.png', off)
+off = re.sub(r'((?:Karten/\d\d|Monsterboegen/(?:\d\d|K\d)|Trankkarten/(?:\d\d|Gifte/G\d\d)|Verbuendete-Karten/\d\d)-[A-Za-z0-9\-]+)\.jpg', r'\1.png', off)
 off = re.sub(r'(Bilder/[A-Za-z0-9\-]+)\.jpg', r'\1.png', off)   # NPC-Portraets
 off = off.replace('<title>Die letzte Großtat</title>', '<title>Die letzte Großtat</title>\n<!-- Offline-Fassung des Kampagnenbuchs: liegt im Ordner Oneshot-Die-letzte-Grosstat, Karten relativ aus Karten/. Erzeugt von build.py; nach jeder Textaenderung neu bauen. -->')
 assert '<script src="https://cdnjs' not in off and 'fonts.googleapis.com/css2' not in off
