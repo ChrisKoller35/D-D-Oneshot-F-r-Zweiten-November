@@ -22,6 +22,10 @@ Sildoras am besten kann: Reiterei. Die **Sonnenlanzen** sind dreihundert
 Lanzenreiter in roten Mänteln auf hohen Pferden, und sie haben den Wein
 für die Siegesfeier mitgebracht.
 
+<img class="portrait" src="Bilder/Aurel-Vanthis.jpg" alt="Ritter Aurel Vanthis">
+
+*Ritter Aurel Vanthis*
+
 **Ritter Aurel Vanthis**, Hauptmann der Sonnenlanzen. Mensch, Ende
 zwanzig, zu schön für diesen Krieg: polierter Harnisch, gepflegter
 Bart, der jüngste Sohn eines Weingutes. Es ist sein erster Krieg, und
@@ -41,6 +45,10 @@ einer Nacht eine Brücke und reißen am Morgen eine Barrikade ein. Tilda
 Fenn und Brida Steinhand gehören zu ihnen (→
 `NPC/Soldaten-und-Trupp-Eisenwacht/`).
 
+<img class="portrait" src="Bilder/Brannok-Grauhammer.jpg" alt="Brannok Grauhammer">
+
+*Brannok Grauhammer*
+
 **Brannok Grauhammer**, Hauptmann der Hammergarde. Zwerg, alt, grauer
 Zopf im Bart, eine Stimme wie ein Fass, das man über Stein rollt. Hat
 die Ballisten im Pass als junger Geselle mitgebaut und nimmt es
@@ -58,6 +66,10 @@ Männer tragen: Leitern, Verwundete, Ballistenbolzen, einmal einen ganzen
 Karren. In der Schlacht stehen sie, wo etwas gehalten werden muss. Eine
 von ihnen ist **Skadi**: trägt die Leitern und die Verwundeten, spricht
 nur in ganzen, langsamen Sätzen.
+
+<img class="portrait" src="Bilder/Thuluk-Wolkentreter.jpg" alt="Thuluk Wolkentreter">
+
+*Thuluk Wolkentreter*
 
 **Thuluk Wolkentreter**, Anführer der Goliaths. Riesig, kahl, Narben
 wie Landkarten auf den Armen; sein Name bedeutet, dass er als Junge
@@ -78,6 +90,10 @@ Essen; Befehle nimmt nur Sarenne entgegen und gibt sie weiter. Sie reden
 leise und treffen auf dreihundert Schritt. Nordgar hat sie spät kommen
 sehen und sagt es ihnen nicht ins Gesicht; die Grünpfeile wissen es
 trotzdem.
+
+<img class="portrait" src="Bilder/Sarenne-Ilwyn.jpg" alt="Hauptfrau Sarenne Ilwyn">
+
+*Hauptfrau Sarenne Ilwyn*
 
 **Sarenne Ilwyn**, Hauptfrau der Grünpfeile. Halbelfe, sieht aus wie
 Mitte dreißig und ist älter, schmal, Haar unter der Kapuze, ein

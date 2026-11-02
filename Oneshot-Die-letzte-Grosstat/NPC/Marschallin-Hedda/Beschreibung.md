@@ -3,6 +3,10 @@
 Oberbefehlshaberin des letzten Heeres Nordgars. Questgeberin des
 Oneshots.
 
+<img class="portrait" src="Bilder/Marschallin-Hedda.jpg" alt="Marschallin Hedda Eisenbrecht">
+
+*Marschallin Hedda Eisenbrecht*
+
 ## Erscheinung & Wesen
 
 Fünfzig, grau, eine Narbe vom Ohr bis zum Kinn, die beim Lachen

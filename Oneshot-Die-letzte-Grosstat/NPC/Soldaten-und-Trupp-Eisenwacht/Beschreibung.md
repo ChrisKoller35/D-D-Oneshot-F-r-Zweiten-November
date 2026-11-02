@@ -16,6 +16,10 @@ gehen.
 
 ## Hauptmann Corvin Rask (Trupp Eisenwacht)
 
+<img class="portrait" src="Bilder/Hauptmann-Corvin-Rask.jpg" alt="Hauptmann Corvin Rask">
+
+*Hauptmann Corvin Rask*
+
 Mensch, Mitte vierzig, grau an den Schläfen, eine Narbe quer über die
 Kehle, deshalb spricht er heiser und leise. Führt die **Eisenwacht**:
 acht Meuchler, die das Heer für die Arbeit braucht, von der man nicht

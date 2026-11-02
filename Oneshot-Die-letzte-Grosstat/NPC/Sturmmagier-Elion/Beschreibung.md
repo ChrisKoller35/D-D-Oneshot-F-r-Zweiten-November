@@ -6,6 +6,10 @@ dann vor: Er spricht **Drakonisch**, er war drei Jahre Unterhändler am
 Hof des Fürsten, und er ist der einzige Magier des Heeres, der im
 Sturm fliegen kann.
 
+<img class="portrait" src="Bilder/Sturmmagier-Elion.jpg" alt="Elion Wolkenrath, der Sturmmagier">
+
+*Elion Wolkenrath, der Sturmmagier*
+
 ## Erscheinung & Wesen
 
 Mitte vierzig, hager, graue Schläfen, ein Mantel, der bei jedem Wind

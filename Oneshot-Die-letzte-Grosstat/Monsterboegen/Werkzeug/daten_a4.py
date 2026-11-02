@@ -2,8 +2,8 @@
 def a4(name, sub, hg, acc, line, img, quelle, core, abil, props, cols, hh="110mm", ch="118mm", pos="50% 40%", xp=None):
     return dict(name=name, sub=sub, hg=hg, acc=acc, line=line, img=img, quelle=quelle, core=core, ab=abil, props=props, cols=cols, hh=hh, ch=ch, pos=pos, xp=xp or XP[hg])
 
-# ---------------- Argentys (bestehend) ----------------
-drache = a4("Argentys", "Uralter Silberdrache · Gigantischer Drache (metallisch), rechtschaffen gut", "23", "#2f4f6b", "#9fb2c2", "drache.png",
+# ---------------- Nymeria (bestehend) ----------------
+drache = a4("Nymeria", "Uralter Silberdrache · Gigantischer Drache (metallisch), rechtschaffen gut", "23", "#2f4f6b", "#9fb2c2", "drache.png",
  "Werte: Monsterhandbuch 2024 (SRD 5.2), Uralter Silberdrache · Übungsbonus +7",
  [("Rüstungsklasse","22",""),("Trefferpunkte","468","(24W20+216)"),("Initiative","+14","(24)"),("Bewegung","12 m","Fliegen 24 m")],
  [("STR","30","+10","+10"),("GES","10","+0","+7"),("KON","29","+9","+9"),("INT","18","+4","+4"),("WEI","15","+2","+9"),("CHA","26","+8","+8")],
@@ -24,7 +24,7 @@ drache = a4("Argentys", "Uralter Silberdrache · Gigantischer Drache (metallisch
   feat("Frosthauch", ("RW WEI 23","gelähmt"), "", "Wirkt <b>Monster festhalten</b>. Erst wieder ab Beginn ihres nächsten Zuges."),
   feat("Kältesturm", ("RW GES 23","4W6 Kälte","9 m weg"), "Linie 18 m × 3 m", "Misserfolg: Schaden und 9 m von ihr weggestossen. Erfolg: halber Schaden, kein Stoss. Erst wieder ab Beginn ihres nächsten Zuges."),
   feat("Ansprung", ("½ Bewegung","Zerfetzen +17"), "", "Bewegt sich bis zur halben Geschwindigkeit und macht einen Zerfetzen-Angriff (2W8+10 Hieb + 2W8 Kälte)."),
-  box("Im Oneshot", "Argentys, die Sturmhüterin. Kämpft in Kapitel 4 gegen die Höllenfeuer-Maschine, geführt von einem Spieler (siehe Spieler-Handout): pro Zug Sturzflug auf die Maschine oder Odem auf die Horde. Bei 0 TP zieht sie sich ins Sturmgebiet zurück, sie stirbt nicht. Nicht gegen den Feuerriesen, den Fäulnistroll oder den Gehörnten Teufel."),
+  box("Im Oneshot", "Nymeria, die Sturmhüterin. Kämpft in Kapitel 4 gegen die Höllenfeuer-Maschine, geführt von einem Spieler (siehe Spieler-Handout): pro Zug Sturzflug auf die Maschine oder Odem auf die Horde. Bei 0 TP zieht sie sich ins Sturmgebiet zurück, sie stirbt nicht. Nicht gegen den Feuerriesen, den Fäulnistroll oder den Gehörnten Teufel."),
  ]), hh="86mm", ch="150mm", pos="50% 30%", xp="50 000 EP<br>Hort 62 000")
 
 # ---------------- Höllenfeuer-Maschine (bestehend, umbenannt) ----------------
@@ -47,7 +47,7 @@ maschine = a4("Höllenfeuer-Maschine", "Hellfire Engine · Riesiges Konstrukt, r
   feat("Höllenfluch", (), "bei jeder Höllenwaffe", "Wer durch eine Höllenwaffe stirbt, steigt in 1W4 Stunden als Lemure in Avernus auf. Danach helfen nur <i>Wunsch</i> oder: Lemure töten und <i>Wahre Wiederbelebung</i> auf den Körper. Konstrukte und Teufel sind immun."),
   box("Hausregel Oneshot: Der Kessel", "<b>RK 12 · 60 TP</b> · Wucht und Donner doppelt · immun gegen Feuer, Gift, Psycho. "
   "Birst er: <span class=\"dice\">6W6 Feuer · 6 m · RW GES 14 halb</span>, Feuer am Boden 3 Runden (schwieriges Gelände, 2W6 Feuer beim Betreten), Maschine steht 2 Runden später still. "
-  "Alle 4 Bombardiere (Goblin-Krieger, Karte K1) tot: Kessel läuft in 3 Runden leer. Jede Runde: eine Höllenwaffe ins Heer (−1 Schlachtenleiste) und Schritt geradeaus; schiesst auf Argentys, solange sie über ihr ist. Das mittlere der drei Ziele in Kapitel 4."),
+  "Alle 4 Bombardiere (Goblin-Krieger, Karte K1) tot: Kessel läuft in 3 Runden leer. Jede Runde: eine Höllenwaffe ins Heer (−1 Schlachtenleiste) und Schritt geradeaus; schiesst auf Nymeria, solange sie über ihr ist. Das mittlere der drei Ziele in Kapitel 4."),
  ]), hh="114mm", ch="112mm")
 
 # ---------------- Assassine (bestehend, umbenannt) ----------------
@@ -167,11 +167,11 @@ kriegspriester = a4("Kriegspriester", "Mittelgrosser Humanoide (Hobgoblin, Kleri
   feat("Flammenschlag", ("RW GES 15","4W6 Feuer","+ 4W6 gleissend"), "1/Tag · Zylinder Radius 3 m, 12 m hoch · 18 m", "Erfolg: halber Schaden. Steht der Troll mit drin, schaltet das seine Aura eine Runde ab; der Priester zielt lieber daneben."),
   feat("Hüter des Glaubens", ("20 gleissend","RW GES 15 halb"), "1/Tag · 3 m · 8 Stunden", "Ein glühendes Kettengebilde neben dem Troll. Wer sich ihm auf 3 m nähert, nimmt 20 gleissend (Erfolg: 10). Verschwindet nach 60 Schaden insgesamt."),
   feat("Person festhalten", ("RW WEI 15","gelähmt"), "1/Tag · 18 m · Konzentration, 1 Minute", "Gegen den gefährlichsten Nahkämpfer. Neuer Wurf am Ende jedes eigenen Zugs."),
-  feat("Verbannung", ("RW CHA 15",), "1/Tag · 18 m · Konzentration", "Gegen Argentys, falls sie über ihm ist. Sie schafft den Wurf fast immer, aber die Spieler sollen es sehen."),
+  feat("Verbannung", ("RW CHA 15",), "1/Tag · 18 m · Konzentration", "Gegen Nymeria, falls sie über ihm ist. Sie schafft den Wurf fast immer, aber die Spieler sollen es sehen."),
   "<h2>Bonusaktionen</h2>",
   feat("Heilendes Licht", ("2/Tag","2W8+3 TP"), "er selbst oder eine Kreatur in 18 m", "Immer auf den Troll, nie auf sich."),
   box("Der Korb", "Sitzt im Eisenkorb zwischen den Schultern des Trolls, neben der Bannerstange: <b>Halbdeckung (+2 RK = 20)</b>, freie Sicht über die Horde, und er steht <b>nicht</b> in der Aura des Trolls. Wer auf den Troll klettert, steht neben dem Korb und kann ihn im Nahkampf angreifen. Fällt der Troll, stürzt er aus dem Korb (1W6 Wucht, liegend) und kämpft zu Fuss weiter."),
-  box("Reihenfolge und Ende", "1. Runde 1: Hüter des Glaubens neben den Troll. 2. Sobald ein Held an den Troll will: Flammenschlag. 3. Person festhalten auf den gefährlichsten Nahkämpfer. 4. Verbannung gegen Argentys. 5. Heilendes Licht immer auf den Troll. "
+  box("Reihenfolge und Ende", "1. Runde 1: Hüter des Glaubens neben den Troll. 2. Sobald ein Held an den Troll will: Flammenschlag. 3. Person festhalten auf den gefährlichsten Nahkämpfer. 4. Verbannung gegen Nymeria. 5. Heilendes Licht immer auf den Troll. "
   "Er predigt aus dem Korb, nennt die Helden beim Namen und fragt, wofür sie kämpfen; Milo antwortet immer («Für Grossmutter. Und weil euch sonst keiner kocht.»). <b>Fällt das Banner:</b> er kniet und betet, kämpft nicht weiter, flieht nicht."),
  ]), hh="96mm", ch="140mm", pos="50% 30%")
 
@@ -312,7 +312,7 @@ verwuester = a4("Hobgoblin-Verwüster", "Mittelgrosses Feenwesen (Goblinoide), r
  ]), hh="100mm", ch="134mm", pos="50% 35%")
 
 A4 = [
- ("01-Uralter-Silberdrache-Argentys", drache),
+ ("01-Uralter-Silberdrache-Nymeria", drache),
  ("02-Hoellenfeuer-Maschine", maschine),
  ("03-Assassine", nadel),
  ("04-Bugbear-Krieger", bugbear),

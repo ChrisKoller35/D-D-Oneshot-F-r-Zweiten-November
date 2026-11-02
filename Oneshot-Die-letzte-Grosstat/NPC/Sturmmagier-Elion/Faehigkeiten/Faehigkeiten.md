@@ -2,7 +2,7 @@
 
 ## Der Unterhändler (Kapitel 1)
 
-Elion fliegt zur Silberkanzel, wartet, und Argentys kommt. Ihre Frage:
+Elion fliegt zur Silberkanzel, wartet, und Nymeria kommt. Ihre Frage:
 *„Warum sollte ich ein Land verteidigen, das meinen Himmel nie
 respektiert hat?"*
 
@@ -15,7 +15,7 @@ bevor Ihr es sagen müsst."
 
 **Wurf:** Überzeugen +5 gegen DC 15 – **mit Vorteil**, wenn der Satz
 der Helden ehrlich war (Erzählerentscheidung; ein Spruch wie „Wir
-zahlen gut" gibt Nachteil). Erfolg: Argentys ist freigeschaltet.
+zahlen gut" gibt Nachteil). Erfolg: Nymeria ist freigeschaltet.
 Misserfolg: Sie schickt ihn zurück, ohne Groll; Elion kehrt im
 Morgengrauen zurück und sagt den Helden ehrlich, woran es lag.
 

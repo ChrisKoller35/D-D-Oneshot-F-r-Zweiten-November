@@ -137,7 +137,7 @@ intakt, freigeräumt nur für die Zeltreihen um die Burg und im Hof). Christophs
 Saal; Anschluss: Schreie aus dem Raum am Hof). Heddas Auftritt ebenfalls
 Christophs Text (blutiges Kurzschwert, zwei Gefangene, Vorschlag
 Besprechungsbüro). Tom und Orvin kommen nur auf Verlangen ins Büro. Bote zur
-Drachin nur auf Nachfrage: Sturmmagier Elion schaltet Argentys frei. Toms
+Drachin nur auf Nachfrage: Sturmmagier Elion schaltet Nymeria frei. Toms
 Labor liegt im Keller. Neben-NPC eingetragen (Christoph kann streichen): Bote
 Bastian Kolk; Hauptmann Corvin Rask (Trupp Eisenwacht, 8 Meuchler, nimmt die
 linken Türme); Meuchler Jorik (Heddas Sohn), Ilva Kurzschritt, Kessa Vorrin (seit
@@ -186,7 +186,7 @@ Trossknecht, kein Bauer. Kettennarbe bleibt, er redet gern, ergibt sich unter
   Kapitel 5 und Auftritt am Totenfeuer noch? (vorerst belassen, Notiz im
   Buch). Vorlesetext: nice to have.
 
-**Kapitel 1c – Die gekettete Drachin (optional).** Argentys an einem
+**Kapitel 1c – Die gekettete Drachin (optional).** Nymeria an einem
 Siegelstein, Schwert Silberzahn in den Echohallen. **Dungeon neu seit
 25.10.2026** (Thread «Dungeon der Sturmland-Sidequest besetzen»): heisst
 **Ebene 1, Ebene 2, Bossraum**; **nur Bestien des Sturmgebiets, keine
@@ -204,17 +204,21 @@ für den Dungeon erstellen»): `Karten/06-Echohallen-Ebene-1.png` bis
 `11-Echohallen-Spiegelkammer.png` (Draufsicht, 5-Fuss-Raster, Bildmodell), je
 eine zweite Fassung in `Karten/Echohallen-Varianten/`, Legende in
 `Karten/Karten.md`; Abnahme durch Christoph offen. Richtwert 2 h 45. Montage ohne Maschine; Gruppe
-landet in Kapitel 5. Silberzahn als Geschenk in Kapitel 7. **Wer sie
-gekettet hat (27.10.2026, Thread «Mächtigen Gegner finden»):** ein
-**Lich** (MM 2024, HG 21) aus dem Norden, tritt nie auf; Siegelstein =
-Zauber Gefangenschaft (Grad 9, Ketten); List: als alter Kartenzeichner
-zwei Sommer lang ihr Vertrauen erschlichen, Stein als «Grenzstein»
-geschenkt, sie sprach freiwillig ihren Namen hinein (kein Rettungswurf);
-Ketten trinken ihre Kraft fürs Phylakterium; Horde (Kriegspriester,
-20 Goblins) hat nur den Stein getragen. Schlüssel: Silberzahn, geführt
-von einer Hand, der sie vertraut (Szene 4, «Das zweite Schloss»,
-Rollenspiel). Abschnitt «Wer sie gekettet hat» in 1c; Querverweise bei
-Kazzamir, Kriegspriester, Argentys, Nebenquest angepasst.
+landet in Kapitel 5. Silberzahn zerbricht bei der Befreiung (Christoph 1.11.2026), keine Beute. **Wer sie
+gekettet hat (NEU 1.11.2026, Thread «Nymeria Bild, Namen und
+Vorgeschichte», ersetzt die Lich-Fassung vom 27.10.):** eine fremde
+Frau, Abenteurerin und Kartenzeichnerin, halb verhungert, von Nymeria
+gerettet; kam jährlich mit Karten; eines Tages Karte ziehen und drehen
+= Zauber, Magie in Kristall gezogen, magische Ketten versiegeln sie;
+die Frau zeigt sich als Dämonisches (weisses Gesicht, zu breites
+Lachen, leere weisse Augen) und löst sich in schwarzem Rauch auf. Die
+anderen Drachen konnten das Siegel nicht brechen; das Schwert im
+Drachenhort-Schatz neutralisiert Zauber, der grosse Drache passte nicht
+durch den Menschen-Durchgang, die kleinen kamen nie zurück. Text auf
+Nymerias NPC-Seite (Abschnitt «Wie sie in Ketten kam», «Wesen»
+gestrichen). Kein Lich mehr. Zeitpunkt (letztes Jahr / vor den
+Angriffen / früher): ein paar Monate vor dem Angriff der Horde (Christoph 1.11.2026, nur Notiz, nicht im Buch). Porträt
+`Bilder/Silberdrachin-Nymeria.png` (Christoph, 1.11.2026). **Name seit 1.11.2026 abends: Nymeria Valcastre** (vorher Argentys; Christophs Wahl aus Vorschlägen, im Text kurz «Nymeria»; Ordner, Bild und Monsterbogen 01 umbenannt).
 - Stand: **fertig** (Besetzung von Christoph entschieden 25.10.2026,
   Werte aus den Screenshots, vier Kämpfer Stufe 8).
 - Offen: Hat die Gruppe verlässlich Feuer/Säure (Frage an Christoph,
@@ -314,7 +318,7 @@ Christophs Idee. Drumherum 4 Hobgoblin-Krieger und 2 Hauptmänner. Ziel
 fällt, wenn der Troll fällt (Priester stürzt aus dem Korb), das Banner
 gerissen wird (klettern + reissen, je Athletik DC 15) oder die Stange 30 TP
 nimmt; der Priester allein reicht nicht. Christoph weiss, dass alle drei
-brutal stark sind, und will es so («es wird Wege geben»). **Argentys** = Uralter Silberdrache (2024, HG 23, RK 22,
+brutal stark sind, und will es so («es wird Wege geben»). **Nymeria** = Uralter Silberdrache (2024, HG 23, RK 22,
 468 TP) als Spielerbogen (Handout): pro Zug Sturzflug auf die Maschine oder
 Odem auf die Horde; die Maschine schiesst auf sie statt aufs Heer; bei 0 TP
 Rückzug; führt: Befreier aus 1c, sonst wer den Boten vorschlug, sonst reihum.
@@ -322,7 +326,7 @@ Rückzug; führt: Befreier aus 1c, sonst wer den Boten vorschlug, sonst reihum.
   entschieden (25.10.2026, Thread «Grosse Gegner für die Schlacht
   festlegen»); Szenen 1–3 und Szenarien sind darauf angepasst, aber noch
   nicht als Ganzes abgenommen.
-- Offen: Kessel (60 TP) knackt Argentys meist im
+- Offen: Kessel (60 TP) knackt Nymeria meist im
   ersten Sturzflug: mehr Kessel-TP? Monsterbögen für alle drei Ziele liegen seit
   25.10.2026 in `Monsterboegen/` (06 bis 08). Vorlesetexte fehlen: Entscheidung, Flug
   über die Schlacht, «Die Horde bricht».
@@ -331,7 +335,7 @@ Rückzug; führt: Befreier aus 1c, sonst wer den Boten vorschlug, sonst reihum.
 1.11.2026): Die Horde flieht am eigenen Lager vorbei den offenen Pass hinunter, die
 Helden nehmen Verengung und Kessel kampflos ein und errichten dort ihr eigenes Lager.
 Der frühere «bewusst kleine Kampf» (Hobgoblin-Hauptmann + 4 Hobgoblins an der Enge)
-ist gestrichen. Rast, Siegestrunk, Heddas Plan, Argentys' Fragen, Pitt (zweiter
+ist gestrichen. Rast, Siegestrunk, Heddas Plan, Nymerias Fragen, Pitt (zweiter
 Versuch, falls nicht gefasst).
 - Stand: **offen**, noch nicht durchgegangen; Kampflosigkeit eingebaut in
   `Story/Story-Gesamt.md`, `Orte/Hordenlager.md`, `Feinde/Die-Horde/Beschreibung.md`.
@@ -418,8 +422,8 @@ bei der Horde. Arbeitsregel «Eine Quelle pro Fakt» und Quellen-Register
 - Trank- und Giftkarten im Magic-Stil fertig; Trankliste und Orvins Schliffe final.
 - Regionskarte von Christoph übermalt, ausgebessert, abgenommen und ins Buch
   übernommen.
-- Monsterbögen A4: Argentys, Hellfire Engine (Bogen heisst noch «Grollhorn»), Nadel, Pitt, Bugbear-Pirscher.
-- Argentys von «erwachsen» auf Uralter Silberdrache (HG 23) umgestellt, inkl.
+- Monsterbögen A4: Nymeria, Hellfire Engine (Bogen heisst noch «Grollhorn»), Nadel, Pitt, Bugbear-Pirscher.
+- Nymeria von «erwachsen» auf Uralter Silberdrache (HG 23) umgestellt, inkl.
   Spielerbogen und Kapitel 4.
 - Kapitel 1b neu aufgestellt: Pitt als Bugbear-Krieger aus dem Fluchtgang,
   Nadel mit zwei Bugbear-Pirschern; Toms Labor im Keller.
@@ -447,7 +451,7 @@ Ring» (1× pro Abenteuer, Held bleibt auf 1 TP, Stein danach grau) statt
 «Mit viel Glück»; «Großmutters Kräuter» (3× 1W6 Inspiration) statt der
 erfundenen Heldengeschichte; «Milos Küche» (1W8+3 temporäre TP nach
 jeder Rast); «Nachlader» bleibt; «Großmutters Geschichten» statt «Ohr
-des Sängers» (Argentys-Legende, Kazzamir-Satz). Keine Ablenkung mehr:
+des Sängers» (Nymeria-Legende, Kazzamir-Satz). Keine Ablenkung mehr:
 Kapitel 2 leiser Weg ohne NPC-Ablenkung, dreister Weg: ein Held spielt
 den Hauptmann (Trank der Verkleidung), Milo den gefangenen Koch.
 Handout «Brams Lied» ersetzt durch `Story/Spieler/Handout-Milos-Kochbuch.md`
@@ -511,13 +515,13 @@ API-Schlüssel sind im neuen Projekt noch nicht hinterlegt (Abschnitt 8).
 - `Story/` (nur noch Story-Gesamt), `NPC/`, `Feinde/`,
   `Orte/`, `Regeln/`, `Quests/`, `Belohnungen/`.
 - **1.11.2026 (Buchseite Version 40, danach 42):** Erzähler-Kapitel 01–07 und
-  Spieler-Handouts (Argentys, Karte Felsenpass, Marschbefehl, Milos Kochbuch)
+  Spieler-Handouts (Nymeria, Karte Felsenpass, Marschbefehl, Milos Kochbuch)
   auf Wunsch aus dem Buch genommen, liegen in `_to_delete/Story-Erzaehler/`
   und `_to_delete/Story-Spieler/`. Toms Tränke-Karte bleibt und steht jetzt
   unter `NPC/Druide-Tom/Handout-Toms-Traenke.md`. Quellenblock
   `besatzung-felsband` (Besatzungstabelle) ist von Kapitel 3 nach
   `Orte/Felsenpass.md` gewandert. Verweise auf `Story/Erzaehler/…` in
-  Quests, Horde, Argentys, Schlachtenleiste stehen noch als Text drin
+  Quests, Horde, Nymeria, Schlachtenleiste stehen noch als Text drin
   (laufen ins Leere).
   Zudem bei «Die Verbündeten» (Thalvien) der Punkt «Aufhänger: Späher
   haben das Sturmgebiet gesehen …» entfernt (Version 42).
@@ -542,14 +546,14 @@ API-Schlüssel sind im neuen Projekt noch nicht hinterlegt (Abschnitt 8).
   behalten. Komplette alte Fassung in `_to_delete/NPC-alt-2026-11-01/`.
   Mitentfernt (hingen an gestrichenen Abschnitten): Orvins Geschützkunde
   und Ordensguss, Milos Nachlader-Regel in Regeln/Geschuetze und
-  Drachenjagd, Grossmutters Ring beim Feuerriesen-Wurf, Argentys' «Drei
+  Drachenjagd, Grossmutters Ring beim Feuerriesen-Wurf, Nymerias «Drei
   Fragen», «Vor dem Tor» und «Was sie NICHT tut», Pitts «Narbe (Story)»,
-  Elions «Übersetzer». Quests und Story-Gesamt erwähnen Argentys' drei
+  Elions «Übersetzer». Quests und Story-Gesamt erwähnen Nymerias drei
   Fragen noch. Christoph schaut die NPC-Seiten noch durch.
 - **1.11.2026 (Version 51): Es gibt KEINEN Sturmtrank** von Tom mehr.
-  Überall entfernt (Handout, Belohnungen, Argentys, Elion, Sturmgebiet,
+  Überall entfernt (Handout, Belohnungen, Nymeria, Elion, Sturmgebiet,
   Echohallen, beide Nebenquests). Pitt stiehlt jetzt Toms Tränke
-  allgemein; die Folge «Kazzamirs Bote reizt Argentys» ist weg. Elion
+  allgemein; die Folge «Kazzamirs Bote reizt Nymeria» ist weg. Elion
   schafft den Sturmflug durch seine Zauber.
 - **1.11.2026 (Version 51): NPC-Seite «Spion Pitt» gestrichen** – Pitt ist
   nur ein Bugbear-Krieger (Feinde → Kampfübersicht, Kapitel 1b). Alte
@@ -595,7 +599,18 @@ API-Schlüssel sind im neuen Projekt noch nicht hinterlegt (Abschnitt 8).
 - **1.11.2026 (Version 63):** Christophs Karte von Burg Veldgard ersetzt
   die SVG-Draufsicht (Karte 5): `Karten/05-Burg-Veldgard.png`, eingebunden
   oben auf `Orte/Burg-Veldgard.md` und auf der Kartenseite; Legende der
-  alten Draufsicht raus. Alte SVG/PNG in `_to_delete/Karten-alt-2026-11-01/`. (Argentys-Legende
+  alten Draufsicht raus. Alte SVG/PNG in `_to_delete/Karten-alt-2026-11-01/`.
+- **1.11.2026 abends (Version 67):** Neun NPC-Porträts von Christoph in
+  `Bilder/` (Hedda, Aurel, Brannok, Thuluk, Sarenne, Orvin, Lenja, Elion,
+  Corvin Rask), auf den NPC-Seiten eingebunden (`<img class="portrait">`,
+  nur Name als Bildunterschrift). build.py setzt `Bilder/*.jpg` offline auf
+  .png zurück; CSS `img.portrait` im Template. Milo-Porträt seit Version 70
+  (`Bilder/Milo-Klee.png`); Nymeria macht der Bilder-Thread.
+- **1.11.2026 abends (Version 69): Milos Charakterbogen Version 2**
+  (`_Entwuerfe/Milo-Klee-Charakterbogen-2.pdf`, zwei Seiten «Werte & Infos»
+  und «Zauber & Heilung»). Aufgeteilt: Stats = Werte & Infos, Fähigkeiten =
+  Glück & Ressourcen, Zauberwirken, Göttliche Macht, dazu Milos Küche.
+  Hackbeil und Bratpfanne (nicht auf dem Bogen) gestrichen. (Nymeria-Legende
   und Kazzamir-Hinweis damit nicht mehr bei Milo).
 - **1.11.2026 (Version 64, Thread «Buchnavigation vereinfachen»):** Unten
   in der Navigation nur noch zwei Seiten: **Monsterkarten**

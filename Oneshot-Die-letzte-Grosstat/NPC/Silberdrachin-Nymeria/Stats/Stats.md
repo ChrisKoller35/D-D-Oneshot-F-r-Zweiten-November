@@ -1,8 +1,8 @@
-# Argentys, die Sturmhüterin – Statistiken
+# Nymeria Valcastre, die Sturmhüterin – Statistiken
 
 *Uralter Silberdrache, Werte unverändert aus dem Monsterhandbuch 2024
 (Entscheid 2026-10-25). Druckbogen A4 mit Bild und Würfelformeln:
-`Monsterboegen/01-Uralter-Silberdrache-Argentys.pdf`. In Kapitel 4
+`Monsterboegen/01-Uralter-Silberdrache-Nymeria.pdf`. In Kapitel 4
 führt ein **Spieler** sie gegen die Höllenfeuer-Maschine.*
 
 | | |

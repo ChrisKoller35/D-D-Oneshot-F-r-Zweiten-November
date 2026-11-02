@@ -96,13 +96,13 @@ Zwei Kapitel, die nur spielen, wenn die Spieler sie auslösen:
   verschlossen werden. Kein Gewinn – mit Absicht.
   → `Story/Erzaehler/01b-Der-Tunnel-des-Spions.md`, `Orte/Der-Fluchtgang.md`
 - **Kapitel 1c: Die gekettete Drachin** – Fliegen die Helden selbst
-  ins Sturmgebiet, finden sie Argentys in Kaltstahlketten an einem
-  Siegelstein, mit dem ein Lich aus dem Norden sie hereingelegt hat (die
-  Horde hat den Stein nur getragen). Ihr Schwert **Silberzahn** liegt in den
-  **Drachenhort** unter der Silberkanzel (Ebene 1: Mantikore und
+  ins Sturmgebiet, finden sie Nymeria in magischen Ketten, versiegelt
+  durch einen Zauber, den ihr eine Fremde untergeschoben hat (wie es
+  dazu kam → `NPC/Silberdrachin-Nymeria/Beschreibung.md`). Ihr Schwert
+  **Silberzahn** liegt im **Drachenhort** unter der Silberkanzel (Ebene 1: Mantikore und
   Winterwölfe, dann ein Chimären-Paar; Ebene 2: Gifttroll mit zwei
   Trollen; Bossraum: Schreckenstroll – nur Bestien des Sturmgebiets).
-  Damit brechen sie die Ketten; Argentys fliegt zur Schlacht und
+  Damit brechen sie die Ketten (das Schwert zerbricht dabei); Nymeria fliegt zur Schlacht und
   vernichtet Drachen, Türme und Horde. **Akt 2 bis 4 entfallen**, die
   Gruppe springt zu Akt 5 (Rast) und greift am nächsten Tag Veldgard
   an. Schickt die Gruppe Elion, bleibt alles wie gehabt.
@@ -141,7 +141,7 @@ Szene **Drachenjagd** mit vereinfachten Regeln (→ `Regeln/Geschuetze.md`).
 
 Die Greifen rücken auf und holen die Helden ab. Entscheidung: zurück
 zur Burg oder mitkämpfen? Wer kämpft, landet, wo er will – die Horde
-kann ihn nicht halten. Ist die **Silberdrachin Argentys**
+kann ihn nicht halten. Ist die **Silberdrachin Nymeria**
 freigeschaltet, wird der Flug zur Szene: Feuerbälle steigen auf, und
 wer fällt, wird von ihr aufgefangen. Auf der Ebene warten die
 **drei großen Ziele**: die **Hellfire Engine** (die Höllenfeuer-Maschine mit dem
@@ -153,7 +153,7 @@ Verengung am Felsvorsprung, wo das Heer sie einholt.
 
 - Erzähler-Kapitel: `Story/Erzaehler/04-Die-Schlacht-auf-der-Ebene.md`
 - Feinde: `Feinde/Hellfire-Engine/`, `Feinde/Feuerriese/`, `Feinde/Kriegspriester-und-Faeulnistroll/`
-- NPC: `NPC/Silberdrachin-Argentys/`
+- NPC: `NPC/Silberdrachin-Nymeria/`
 
 ## Akt 5: Das Hordenlager
 
@@ -163,7 +163,7 @@ Schlucht offen aus – kein Tor, keine Schleuse. Die Horde kann die
 Verengung nicht halten; sie rennt am eigenen Lager vorbei und den
 offenen Pass hinunter. Die Helden nehmen Enge und Lager **kampflos** ein
 und errichten im Kessel ihr eigenes Lager. **Lange Rast**, ein
-Siegestrunk, Heddas Plan für morgen, Argentys' drei Fragen.
+Siegestrunk, Heddas Plan für morgen, Nymerias drei Fragen.
 
 - Erzähler-Kapitel: `Story/Erzaehler/05-Das-Hordenlager.md`
 - Ort: `Orte/Hordenlager.md`
@@ -174,7 +174,7 @@ Die Reste der Horde stürmen aus Veldgard, das Heer stellt sich
 ihnen. Die Helden reiten
 auf den Greifen **direkt in die Festung**, dringen ein und stellen
 **Kazzamir, den Gehörnten**, in der großen Halle – allein gegen allein.
-Es kommt keine Hilfe: Hedda, das Heer und Argentys vernichten
+Es kommt keine Hilfe: Hedda, das Heer und Nymeria vernichten
 draußen den Rest der Horde.
 
 - Erzähler-Kapitel: `Story/Erzaehler/06-Sturm-auf-Veldgard.md`

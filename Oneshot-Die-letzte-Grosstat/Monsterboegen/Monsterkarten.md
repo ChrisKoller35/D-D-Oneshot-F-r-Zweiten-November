@@ -5,7 +5,7 @@ Druckfassung: `Monsterboegen/Monsterboegen-A4-alle.pdf` (A4-Bögen), `Monsterboe
 ## A4-Bögen, ein Monster pro Blatt
 
 <div class="bogen-grid">
-<figure><img src="Monsterboegen/01-Uralter-Silberdrache-Argentys.jpg" alt="Uralter Silberdrache Argentys"><figcaption>Uralter Silberdrache Argentys</figcaption></figure>
+<figure><img src="Monsterboegen/01-Uralter-Silberdrache-Nymeria.jpg" alt="Uralter Silberdrache Nymeria"><figcaption>Uralter Silberdrache Nymeria</figcaption></figure>
 <figure><img src="Monsterboegen/02-Hoellenfeuer-Maschine.jpg" alt="Höllenfeür Maschine"><figcaption>Höllenfeür Maschine</figcaption></figure>
 <figure><img src="Monsterboegen/03-Assassine.jpg" alt="Assassine"><figcaption>Assassine</figcaption></figure>
 <figure><img src="Monsterboegen/04-Bugbear-Krieger.jpg" alt="Bugbear Krieger"><figcaption>Bugbear Krieger</figcaption></figure>

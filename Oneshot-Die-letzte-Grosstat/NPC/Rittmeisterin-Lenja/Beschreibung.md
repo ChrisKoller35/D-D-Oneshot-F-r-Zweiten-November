@@ -5,6 +5,10 @@ Reiter, die einzige Luftmacht, die das Heer hat. Nur eine
 Charakterbeschreibung: Lenja braucht keine Werte, und was sie in den
 Kapiteln tut, wird am Tisch improvisiert.
 
+<img class="portrait" src="Bilder/Rittmeisterin-Lenja.jpg" alt="Rittmeisterin Lenja Sturmfeder">
+
+*Rittmeisterin Lenja Sturmfeder*
+
 ## Erscheinung & Wesen
 
 Zwergin, Mitte dreißig, stämmig, breite Schultern, ein wettergegerbtes
